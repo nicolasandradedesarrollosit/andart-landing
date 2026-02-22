@@ -9,9 +9,9 @@ export function HeroSection() {
   const { t } = useTranslation("landing");
 
   return (
-    <section className="relative min-h-[90vh] flex items-center justify-center overflow-hidden">
+    <section className="relative min-h-[80vh] sm:min-h-[90vh] flex items-center justify-center overflow-hidden">
       <div className="absolute inset-0 bg-grid" />
-      <div className="absolute top-20 left-1/4 w-96 h-96 bg-glow opacity-20" />
+      <div className="absolute top-20 left-1/4 w-48 sm:w-64 md:w-96 h-48 sm:h-64 md:h-96 bg-glow opacity-20" />
 
       <div className="page-container relative z-10">
         <div className="max-w-4xl mx-auto text-center">
@@ -22,13 +22,13 @@ export function HeroSection() {
             </span>
           </div>
 
-          <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
+          <h1 className="text-2xl sm:text-4xl md:text-5xl lg:text-7xl font-bold mb-4 sm:mb-6 leading-tight">
             {t("hero.title_line1")}
             <br />
             <span className="gradient-text">{t("hero.title_line2")}</span>
           </h1>
 
-          <p className="text-lg md:text-xl mb-10 max-w-2xl mx-auto" style={{ color: "var(--color-text-secondary)" }}>
+          <p className="text-sm sm:text-base md:text-lg mb-6 sm:mb-8 md:mb-10 max-w-2xl mx-auto text-[var(--color-text-secondary)]">
             {t("hero.subtitle")}
           </p>
 

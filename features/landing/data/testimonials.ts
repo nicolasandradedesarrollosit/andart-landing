@@ -4,7 +4,7 @@ export const testimonials: Testimonial[] = [
   {
     id: "1",
     quote:
-      "Digital Factory transformed our vision into a stunning product. Their attention to detail and technical expertise is unmatched.",
+      "Andart transformed our vision into a stunning product. Their attention to detail and technical expertise is unmatched.",
     avatarSrc: "/images/team/avatar-1.jpg",
     name: "Sarah Chen",
     role: "CEO",
@@ -13,7 +13,7 @@ export const testimonials: Testimonial[] = [
   {
     id: "2",
     quote:
-      "Working with Digital Factory was a game-changer. They delivered beyond our expectations, on time and on budget.",
+      "Working with Andart was a game-changer. They delivered beyond our expectations, on time and on budget.",
     avatarSrc: "/images/team/avatar-2.jpg",
     name: "Marcus Johnson",
     role: "Product Manager",

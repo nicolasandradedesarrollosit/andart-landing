@@ -1,0 +1,19 @@
+{
+  "header": "Capacidades de Fábrica",
+  "toggle": { "software": "Software", "design": "Diseño" },
+  "software": {
+    "sector_label": "Sector 01",
+    "title": "Desarrollo de Software",
+    "web": { "title": "Arquitectura Web", "description": "Navegadores modernos escalables. Sistemas frontend de nivel empresarial optimizados para rendimiento." },
+    "mobile": { "title": "Sistemas Móviles", "description": "Rendimiento nativo, alcance multiplataforma. Soluciones iOS y Android con bases de código unificadas." },
+    "cloud": { "title": "Infraestructura Cloud", "description": "Pipelines DevOps resilientes. Gestión de servidores de alta disponibilidad y despliegues automatizados." }
+  },
+  "design": {
+    "sector_label": "Sector 02",
+    "title": "Diseño Gráfico",
+    "branding": { "title": "Branding", "description": "Identidades visuales que captan atención. Sistemas de marca cohesivos y activos de alta fidelidad." },
+    "uiux": { "title": "Diseño UI/UX", "description": "Interfaces centradas en el usuario con flujo preciso. Wireframing, prototipado y pruebas de usuario." },
+    "motion": { "title": "Motion Graphics", "description": "Storytelling dinámico a través de animación. Micro-interacciones y rutas de movimiento para demos." }
+  },
+  "cta": { "title": "¿Listo para comenzar tu proyecto?", "subtitle": "Construyamos algo extraordinario juntos.", "button": "Iniciar Nuevo Proyecto" }
+}

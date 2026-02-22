@@ -21,12 +21,12 @@ export function TestimonialCard({
 }: TestimonialCardProps) {
   return (
     <div className={cn("card-base", className)}>
-      <Quote className="w-8 h-8 mb-4" style={{ color: "var(--color-primary)" }} />
+      <Quote className="w-6 h-6 sm:w-8 sm:h-8 mb-3 sm:mb-4" style={{ color: "var(--color-primary)" }} />
 
-      <p className="text-base mb-6 leading-relaxed">{quote}</p>
+      <p className="text-sm sm:text-base mb-4 sm:mb-6 leading-relaxed">{quote}</p>
 
-      <div className="flex items-center gap-3">
-        <div className="relative w-12 h-12 rounded-full overflow-hidden">
+      <div className="flex items-center gap-2.5 sm:gap-3">
+        <div className="relative w-10 h-10 sm:w-12 sm:h-12 rounded-full overflow-hidden">
           <Image src={avatarSrc} alt={name} fill className="object-cover" />
         </div>
 

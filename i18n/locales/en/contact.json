@@ -1,0 +1,45 @@
+{
+  "header": "Communication Node",
+  "hero": {
+    "title": "Let's build the future.",
+    "subtitle": "Reach out to our engineering and design teams for technical collaboration."
+  },
+  "form": {
+    "section_label": "System Inputs",
+    "name_label": "Operator Name",
+    "name_placeholder": "Enter full name",
+    "email_label": "Communication Channel",
+    "email_placeholder": "email@andart.dev",
+    "classification_label": "Project Classification",
+    "message_label": "Transmission Data",
+    "message_placeholder": "Describe your objective...",
+    "submit": "Initiate Contact",
+    "success": "Message sent successfully. We'll get back to you soon.",
+    "send_another": "Send another message",
+    "error": "Something went wrong. Please try again."
+  },
+  "classifications": {
+    "prototyping": "Rapid Prototyping",
+    "architecture": "System Architecture",
+    "uiux": "UI/UX Engineering",
+    "hardware": "Hardware Integration"
+  },
+  "location": {
+    "section_label": "Physical Node",
+    "hq_label": "Headquarters",
+    "address": "101 Innovation Way, Tech District"
+  },
+  "channels": {
+    "section_label": "Direct Channels",
+    "tech_support": { "title": "Tech Support", "description": "Direct line to our technical engineering squad." },
+    "press": { "title": "Press Relations", "description": "Media kits and official factory statements." }
+  },
+  "social": { "section_label": "Social Frequency" },
+  "validation": {
+    "name_required": "Name is required.",
+    "email_required": "Email is required.",
+    "email_invalid": "Enter a valid email address.",
+    "classification_required": "Select a project classification.",
+    "message_min": "Message must be at least 10 characters."
+  }
+}

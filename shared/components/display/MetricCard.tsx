@@ -13,7 +13,7 @@ export function MetricCard({ value, label, icon: Icon, className }: MetricCardPr
     <div className={cn("metric-card", className)}>
       {Icon && (
         <div className="absolute top-0 right-0 p-2 opacity-10">
-          <Icon className="size-16" />
+          <Icon className="size-12 sm:size-16" />
         </div>
       )}
       <p className="metric-value">{value}</p>

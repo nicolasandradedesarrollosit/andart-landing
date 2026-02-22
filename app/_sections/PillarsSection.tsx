@@ -14,7 +14,7 @@ export function PillarsSection() {
     <Section className="bg-[var(--color-surface)] border-t border-[var(--color-border)]">
       <Container>
         <SectionHeader label={t("pillars.label")} title={t("pillars.title")} />
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6 mt-6 sm:mt-8 md:mt-12">
           {pillars.map((pillar) => (
             <ServiceCard
               key={pillar.slug}

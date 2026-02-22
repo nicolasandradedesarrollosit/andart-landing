@@ -1,8 +1,8 @@
 export const SITE_METADATA = {
-  title: "Digital Factory | Software Development & Graphic Design",
+  title: "Andart | Software Development & Graphic Design",
   description:
     "We forge software and design identities with industrial precision.",
-  url: "https://digitalfactory.com",
+  url: "https://andart.dev",
   image: "/og-image.png",
   locale: "en_US",
   type: "website",

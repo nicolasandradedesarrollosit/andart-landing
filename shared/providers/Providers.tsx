@@ -1,5 +1,7 @@
 "use client";
 
+import { ThemeProvider } from "next-themes";
+import { Toaster } from "@/shared/components/ui/sonner";
 import { I18nProvider } from "./I18nProvider";
 
 interface ProvidersProps {
@@ -7,5 +9,10 @@ interface ProvidersProps {
 }
 
 export function Providers({ children }: ProvidersProps) {
-  return <I18nProvider>{children}</I18nProvider>;
+  return (
+    <ThemeProvider attribute="class" defaultTheme="dark">
+      <I18nProvider>{children}</I18nProvider>
+      <Toaster position="top-right" richColors />
+    </ThemeProvider>
+  );
 }

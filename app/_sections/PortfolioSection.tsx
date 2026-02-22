@@ -16,7 +16,7 @@ export function PortfolioSection() {
   return (
     <Section className="bg-[var(--color-surface)] border-t border-[var(--color-border)]">
       <Container>
-        <div className="flex items-end justify-between mb-12">
+        <div className="flex items-end justify-between mb-6 sm:mb-8 md:mb-12">
           <SectionHeader label={t("portfolio.label")} title={t("portfolio.title")} />
           <Link
             href={ROUTES.WORK}
@@ -27,7 +27,7 @@ export function PortfolioSection() {
           </Link>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6">
           {featuredProjects.map((project) => (
             <ProjectCard
               key={project.slug}

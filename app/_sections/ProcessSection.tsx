@@ -14,7 +14,7 @@ export function ProcessSection() {
     <Section>
       <Container>
         <SectionHeader label={t("process.label")} title={t("process.title")} />
-        <div className="mt-12 max-w-3xl">
+        <div className="mt-6 sm:mt-8 md:mt-12 max-w-3xl">
           {processSteps.map((step, index) => (
             <TimelineStep
               key={step.number}

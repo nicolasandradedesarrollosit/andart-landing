@@ -1,0 +1,15 @@
+{
+  "hero": {
+    "title_prefix": "Our",
+    "title_accent": "Work",
+    "subtitle": "Precision-engineered digital products and brand identities for high-growth companies."
+  },
+  "filters": { "all": "All", "development": "Development", "design": "Design", "saas": "SaaS", "branding": "Branding" },
+  "projects": {
+    "lumina": { "title": "Lumina CRM", "subtitle": "Next-gen enterprise resource planning" },
+    "nexus": { "title": "Nexus Fintech App", "subtitle": "Secure cross-border digital payments" },
+    "aether": { "title": "Aether Identity", "subtitle": "Visual system for tech ventures" },
+    "oryx": { "title": "Oryx Dashboard", "subtitle": "Real-time analytical engine" }
+  },
+  "cta": { "title": "Have a project in mind?", "subtitle": "Let's build something extraordinary together.", "button": "Start a Project" }
+}

@@ -1,0 +1,19 @@
+{
+  "header": "Factory Capabilities",
+  "toggle": { "software": "Software", "design": "Design" },
+  "software": {
+    "sector_label": "Sector 01",
+    "title": "Software Development",
+    "web": { "title": "Web Architecture", "description": "Scalable modern browsers. Enterprise-grade frontend systems optimized for performance." },
+    "mobile": { "title": "Mobile Systems", "description": "Native performance, cross-platform reach. iOS and Android solutions with unified codebases." },
+    "cloud": { "title": "Cloud Infrastructure", "description": "Resilient DevOps pipelines. High-availability server management and automated deployments." }
+  },
+  "design": {
+    "sector_label": "Sector 02",
+    "title": "Graphic Design",
+    "branding": { "title": "Branding", "description": "Visual identities that command attention. Cohesive brand systems and high-fidelity assets." },
+    "uiux": { "title": "UI/UX Design", "description": "User-centric interfaces with precision flow. Wireframing, prototyping, and user testing." },
+    "motion": { "title": "Motion Graphics", "description": "Dynamic storytelling through animation. Micro-interactions and product demo motion paths." }
+  },
+  "cta": { "title": "Ready to start your project?", "subtitle": "Let's build something extraordinary together.", "button": "Initialize New Project" }
+}

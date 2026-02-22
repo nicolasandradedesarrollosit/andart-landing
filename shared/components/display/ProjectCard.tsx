@@ -37,7 +37,7 @@ export function ProjectCard({
         />
         <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent" />
 
-        <div className="absolute top-4 left-4">
+        <div className="absolute top-3 left-3 sm:top-4 sm:left-4">
           <span
             className={cn(
               "status-badge",
@@ -48,9 +48,9 @@ export function ProjectCard({
           </span>
         </div>
 
-        <div className="absolute bottom-4 left-4 right-4">
-          <h3 className="text-xl font-bold text-white mb-1">{title}</h3>
-          <p className="text-sm text-white/70">{subtitle}</p>
+        <div className="absolute bottom-3 left-3 right-3 sm:bottom-4 sm:left-4 sm:right-4">
+          <h3 className="text-base sm:text-xl font-bold text-white mb-0.5 sm:mb-1">{title}</h3>
+          <p className="text-xs sm:text-sm text-white/70">{subtitle}</p>
         </div>
       </div>
     </Link>

@@ -21,7 +21,7 @@ export function CodeSnippet({ lines, className }: CodeSnippetProps) {
         </div>
       </div>
 
-      <div className="p-6 font-mono text-sm overflow-x-auto">
+      <div className="p-3 sm:p-6 font-mono text-xs sm:text-sm overflow-x-auto">
         {lines.map((line, index) => (
           <div key={index} className={cn("leading-relaxed", line.className)}>
             {line.text}
