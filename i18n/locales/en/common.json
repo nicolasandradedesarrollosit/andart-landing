@@ -1,0 +1,12 @@
+{
+  "nav": {
+    "home": "Home",
+    "work": "Work",
+    "services": "Services",
+    "contact": "Contact"
+  },
+  "footer": {
+    "copyright": "© {{year}} Digital Factory Inc. All rights reserved.",
+    "tagline": "Engineering Digital Excellence"
+  }
+}

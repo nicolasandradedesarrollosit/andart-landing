@@ -1,0 +1,72 @@
+{
+  "hero": {
+    "badge": "Accepting New Projects",
+    "title_line1": "Engineering",
+    "title_line2": "Digital Excellence",
+    "subtitle": "We forge software and design identities with industrial precision.",
+    "cta_primary": "Start a Project",
+    "cta_secondary": "View Portfolio"
+  },
+  "pillars": {
+    "label": "Our Pillars",
+    "title": "Core Capabilities",
+    "software": {
+      "title": "Software Development",
+      "description": "Full-stack engineering from mobile apps to cloud infrastructure. We build scalable, maintainable systems using modern frameworks and best practices."
+    },
+    "design": {
+      "title": "Graphic Design",
+      "description": "Brand identities, UI/UX design, and motion graphics. We craft visual experiences that resonate with your audience and elevate your brand."
+    }
+  },
+  "process": {
+    "label": "Our Process",
+    "title": "Factory Standard",
+    "step1": {
+      "title": "Discovery",
+      "description": "Deep dive into your vision, constraints, and success metrics."
+    },
+    "step2": {
+      "title": "Design",
+      "description": "High-fidelity prototypes and technical architecture planning."
+    },
+    "step3": {
+      "title": "Build",
+      "description": "Iterative development with continuous integration and testing."
+    },
+    "step4": {
+      "title": "Launch",
+      "description": "Deployment, monitoring, and post-launch optimization."
+    }
+  },
+  "portfolio": {
+    "label": "Portfolio",
+    "title": "Recent Work",
+    "view_all": "View All Projects"
+  },
+  "differentiators": {
+    "label": "Why Us",
+    "title": "Built Different",
+    "precision": {
+      "title": "Precision Engineering",
+      "description": "Every line of code, every pixel matters. Factory-grade quality control."
+    },
+    "performance": {
+      "title": "Performance First",
+      "description": "Lightning-fast load times, optimized for scale."
+    },
+    "end_to_end": {
+      "title": "End-to-End",
+      "description": "From concept to deployment, we handle the full stack."
+    }
+  },
+  "testimonials": {
+    "label": "Testimonials",
+    "title": "What Clients Say"
+  },
+  "cta": {
+    "title": "Ready to Build Something Great?",
+    "subtitle": "Let's discuss your project and bring your vision to life.",
+    "button": "Get in Touch"
+  }
+}

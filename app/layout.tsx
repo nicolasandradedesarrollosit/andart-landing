@@ -1,0 +1,44 @@
+import type { Metadata } from "next";
+import { Space_Grotesk, JetBrains_Mono } from "next/font/google";
+import "../styles/index.css";
+import { SITE_METADATA } from "@/shared/constants/site-metadata";
+import { Providers } from "@/shared/providers/Providers";
+import { Header } from "@/shared/components/layout/Header";
+import { Footer } from "@/shared/components/layout/Footer";
+import { BottomNav } from "@/shared/components/layout/BottomNav";
+
+const spaceGrotesk = Space_Grotesk({
+  subsets: ["latin"],
+  variable: "--font-display",
+});
+
+const jetbrainsMono = JetBrains_Mono({
+  subsets: ["latin"],
+  variable: "--font-mono",
+});
+
+export const metadata: Metadata = {
+  title: SITE_METADATA.title,
+  description: SITE_METADATA.description,
+};
+
+export default function RootLayout({
+  children,
+}: Readonly<{
+  children: React.ReactNode;
+}>) {
+  return (
+    <html lang="en" className="dark">
+      <body
+        className={`${spaceGrotesk.variable} ${jetbrainsMono.variable} antialiased`}
+      >
+        <Providers>
+          <Header />
+          <main className="pt-16 pb-16 md:pb-0">{children}</main>
+          <Footer />
+          <BottomNav />
+        </Providers>
+      </body>
+    </html>
+  );
+}

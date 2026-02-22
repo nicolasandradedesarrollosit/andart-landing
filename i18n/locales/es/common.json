@@ -1,0 +1,12 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "work": "Trabajo",
+    "services": "Servicios",
+    "contact": "Contacto"
+  },
+  "footer": {
+    "copyright": "© {{year}} Digital Factory Inc. Todos los derechos reservados.",
+    "tagline": "Ingeniería de Excelencia Digital"
+  }
+}

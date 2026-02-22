@@ -1,0 +1,72 @@
+{
+  "hero": {
+    "badge": "Aceptando Nuevos Proyectos",
+    "title_line1": "Ingeniería de",
+    "title_line2": "Excelencia Digital",
+    "subtitle": "Forjamos software e identidades de diseño con precisión industrial.",
+    "cta_primary": "Iniciar Proyecto",
+    "cta_secondary": "Ver Portafolio"
+  },
+  "pillars": {
+    "label": "Nuestros Pilares",
+    "title": "Capacidades Centrales",
+    "software": {
+      "title": "Desarrollo de Software",
+      "description": "Ingeniería full-stack desde aplicaciones móviles hasta infraestructura en la nube. Construimos sistemas escalables y mantenibles."
+    },
+    "design": {
+      "title": "Diseño Gráfico",
+      "description": "Identidades de marca, diseño UI/UX y gráficos en movimiento. Creamos experiencias visuales que resuenan con tu audiencia."
+    }
+  },
+  "process": {
+    "label": "Nuestro Proceso",
+    "title": "Estándar de Fábrica",
+    "step1": {
+      "title": "Descubrimiento",
+      "description": "Inmersión profunda en tu visión, restricciones y métricas de éxito."
+    },
+    "step2": {
+      "title": "Diseño",
+      "description": "Prototipos de alta fidelidad y planificación de arquitectura técnica."
+    },
+    "step3": {
+      "title": "Construcción",
+      "description": "Desarrollo iterativo con integración y pruebas continuas."
+    },
+    "step4": {
+      "title": "Lanzamiento",
+      "description": "Despliegue, monitoreo y optimización post-lanzamiento."
+    }
+  },
+  "portfolio": {
+    "label": "Portafolio",
+    "title": "Trabajo Reciente",
+    "view_all": "Ver Todos los Proyectos"
+  },
+  "differentiators": {
+    "label": "Por Qué Nosotros",
+    "title": "Construidos Diferente",
+    "precision": {
+      "title": "Ingeniería de Precisión",
+      "description": "Cada línea de código, cada píxel importa. Control de calidad de grado industrial."
+    },
+    "performance": {
+      "title": "Rendimiento Primero",
+      "description": "Tiempos de carga ultrarrápidos, optimizados para escala."
+    },
+    "end_to_end": {
+      "title": "De Extremo a Extremo",
+      "description": "Desde el concepto hasta el despliegue, manejamos todo el stack."
+    }
+  },
+  "testimonials": {
+    "label": "Testimonios",
+    "title": "Lo Que Dicen los Clientes"
+  },
+  "cta": {
+    "title": "¿Listo para Construir Algo Grandioso?",
+    "subtitle": "Hablemos sobre tu proyecto y hagamos realidad tu visión.",
+    "button": "Contáctanos"
+  }
+}
