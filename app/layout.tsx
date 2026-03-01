@@ -34,12 +34,14 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body
-        className={`${spaceGrotesk.variable} ${jetbrainsMono.variable} antialiased no-translate overflow-x-hidden`}
+        className={`${spaceGrotesk.variable} ${jetbrainsMono.variable} antialiased no-translate overflow-x-hidden overflow-y-hidden`}
       >
         <Providers>
           <Header />
-          <main className="pt-16 pb-16 md:pb-0">{children}</main>
-          <Footer />
+          <main className="h-[100dvh] overflow-y-auto pt-16 pb-16 md:pb-0">
+            {children}
+            <Footer />
+          </main>
           <BottomNav />
         </Providers>
       </body>

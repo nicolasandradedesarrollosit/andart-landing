@@ -13,9 +13,6 @@ export function Footer() {
         <div className="flex flex-col items-center gap-3 sm:gap-4 text-center">
           <Image src="/logos/andart-light.png" alt="Andart" width={36} height={36} className="block dark:hidden" />
           <Image src="/logos/andart-dark.png" alt="Andart" width={36} height={36} className="hidden dark:block" />
-          <p className="text-xs sm:text-sm" style={{ color: "var(--color-text-secondary)" }}>
-            {t("footer.tagline")}
-          </p>
           <p className="text-xs" style={{ color: "var(--color-text-muted)" }}>
             {t("footer.copyright", { year: currentYear })}
           </p>
