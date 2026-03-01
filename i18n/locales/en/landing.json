@@ -1,72 +1,72 @@
 {
   "hero": {
-    "badge": "Accepting New Projects",
-    "title_line1": "Engineering",
-    "title_line2": "Digital Excellence",
-    "subtitle": "We forge software and design identities with industrial precision.",
-    "cta_primary": "Start a Project",
-    "cta_secondary": "View Portfolio"
+    "badge": "Now Taking On New Projects",
+    "title_line1": "We Build Software.",
+    "title_line2": "We Shape Brands.",
+    "subtitle": "A digital studio that pairs solid engineering with bold design — so your product works beautifully and looks the part.",
+    "cta_primary": "Start Your Project",
+    "cta_secondary": "See Our Work"
   },
   "pillars": {
-    "label": "Our Pillars",
-    "title": "Core Capabilities",
+    "label": "What We Do",
+    "title": "Two Disciplines, One Team",
     "software": {
       "title": "Software Development",
-      "description": "Full-stack engineering from mobile apps to cloud infrastructure. We build scalable, maintainable systems using modern frameworks and best practices."
+      "description": "From web platforms to mobile apps and cloud infrastructure — we write clean, scalable code that grows with your business. No shortcuts, no tech debt by design."
     },
     "design": {
-      "title": "Graphic Design",
-      "description": "Brand identities, UI/UX design, and motion graphics. We craft visual experiences that resonate with your audience and elevate your brand."
+      "title": "Design & Branding",
+      "description": "Logos, brand systems, UI/UX, and motion graphics. We create visual identities that feel cohesive across every touchpoint — from your app to your business card."
     }
   },
   "process": {
-    "label": "Our Process",
-    "title": "Factory Standard",
+    "label": "How We Work",
+    "title": "From Idea to Launch",
     "step1": {
-      "title": "Discovery",
-      "description": "Deep dive into your vision, constraints, and success metrics."
+      "title": "Discover",
+      "description": "We sit down with you to understand your goals, your users, and what success looks like."
     },
     "step2": {
       "title": "Design",
-      "description": "High-fidelity prototypes and technical architecture planning."
+      "description": "We map out the architecture and create high-fidelity prototypes before writing a single line of code."
     },
     "step3": {
       "title": "Build",
-      "description": "Iterative development with continuous integration and testing."
+      "description": "Iterative sprints with real deliverables. You see progress every week, not just at the end."
     },
     "step4": {
-      "title": "Launch",
-      "description": "Deployment, monitoring, and post-launch optimization."
+      "title": "Launch & Grow",
+      "description": "We deploy, monitor, and stick around to optimize. Your launch is a beginning, not a handoff."
     }
   },
   "portfolio": {
     "label": "Portfolio",
-    "title": "Recent Work",
-    "view_all": "View All Projects"
+    "title": "Recent Projects",
+    "view_all": "View All Work"
   },
   "differentiators": {
-    "label": "Why Us",
-    "title": "Built Different",
+    "label": "Why Andart",
+    "title": "What Sets Us Apart",
     "precision": {
-      "title": "Precision Engineering",
-      "description": "Every line of code, every pixel matters. Factory-grade quality control."
+      "title": "Craft Over Speed",
+      "description": "Every feature is thoughtfully built. We don't cut corners — we engineer solutions that hold up over time."
     },
     "performance": {
-      "title": "Performance First",
-      "description": "Lightning-fast load times, optimized for scale."
+      "title": "Fast by Default",
+      "description": "Performance isn't an afterthought. We optimize from day one for speed, accessibility, and scale."
     },
     "end_to_end": {
-      "title": "End-to-End",
-      "description": "From concept to deployment, we handle the full stack."
+      "title": "Design + Code, Under One Roof",
+      "description": "No more juggling agencies. Strategy, design, development, and deployment — all handled by one team."
     }
   },
   "testimonials": {
     "label": "Testimonials",
-    "title": "What Clients Say"
+    "title": "What Our Clients Say"
   },
   "cta": {
-    "title": "Ready to Build Something Great?",
-    "subtitle": "Let's discuss your project and bring your vision to life.",
-    "button": "Get in Touch"
+    "title": "Got a Project in Mind?",
+    "subtitle": "Tell us what you're building. We'll figure out the best way to make it happen.",
+    "button": "Let's Talk"
   }
 }

@@ -1,72 +1,72 @@
 {
   "hero": {
     "badge": "Aceptando Nuevos Proyectos",
-    "title_line1": "Ingeniería de",
-    "title_line2": "Excelencia Digital",
-    "subtitle": "Forjamos software e identidades de diseño con precisión industrial.",
-    "cta_primary": "Iniciar Proyecto",
-    "cta_secondary": "Ver Portafolio"
+    "title_line1": "Desarrollamos Software.",
+    "title_line2": "Creamos Marcas.",
+    "subtitle": "Un estudio digital que combina ingeniería sólida con diseño audaz — para que tu producto funcione bien y se vea increíble.",
+    "cta_primary": "Iniciá Tu Proyecto",
+    "cta_secondary": "Ver Nuestro Trabajo"
   },
   "pillars": {
-    "label": "Nuestros Pilares",
-    "title": "Capacidades Centrales",
+    "label": "Lo Que Hacemos",
+    "title": "Dos Disciplinas, Un Equipo",
     "software": {
       "title": "Desarrollo de Software",
-      "description": "Ingeniería full-stack desde aplicaciones móviles hasta infraestructura en la nube. Construimos sistemas escalables y mantenibles."
+      "description": "Desde plataformas web hasta apps móviles e infraestructura en la nube — escribimos código limpio y escalable que crece con tu negocio. Sin atajos, sin deuda técnica de fábrica."
     },
     "design": {
-      "title": "Diseño Gráfico",
-      "description": "Identidades de marca, diseño UI/UX y gráficos en movimiento. Creamos experiencias visuales que resuenan con tu audiencia."
+      "title": "Diseño y Branding",
+      "description": "Logos, sistemas de marca, UI/UX y motion graphics. Creamos identidades visuales que se sienten coherentes en cada punto de contacto — desde tu app hasta tu tarjeta de presentación."
     }
   },
   "process": {
-    "label": "Nuestro Proceso",
-    "title": "Estándar de Fábrica",
+    "label": "Cómo Trabajamos",
+    "title": "De la Idea al Lanzamiento",
     "step1": {
       "title": "Descubrimiento",
-      "description": "Inmersión profunda en tu visión, restricciones y métricas de éxito."
+      "description": "Nos sentamos con vos para entender tus objetivos, tus usuarios y cómo se ve el éxito."
     },
     "step2": {
       "title": "Diseño",
-      "description": "Prototipos de alta fidelidad y planificación de arquitectura técnica."
+      "description": "Definimos la arquitectura y creamos prototipos de alta fidelidad antes de escribir una sola línea de código."
     },
     "step3": {
       "title": "Construcción",
-      "description": "Desarrollo iterativo con integración y pruebas continuas."
+      "description": "Sprints iterativos con entregables reales. Ves avances cada semana, no solo al final."
     },
     "step4": {
-      "title": "Lanzamiento",
-      "description": "Despliegue, monitoreo y optimización post-lanzamiento."
+      "title": "Lanzamiento y Crecimiento",
+      "description": "Desplegamos, monitoreamos y nos quedamos para optimizar. Tu lanzamiento es un comienzo, no una despedida."
     }
   },
   "portfolio": {
     "label": "Portafolio",
-    "title": "Trabajo Reciente",
-    "view_all": "Ver Todos los Proyectos"
+    "title": "Proyectos Recientes",
+    "view_all": "Ver Todo el Trabajo"
   },
   "differentiators": {
-    "label": "Por Qué Nosotros",
-    "title": "Construidos Diferente",
+    "label": "Por Qué Andart",
+    "title": "Lo Que Nos Diferencia",
     "precision": {
-      "title": "Ingeniería de Precisión",
-      "description": "Cada línea de código, cada píxel importa. Control de calidad de grado industrial."
+      "title": "Oficio Antes que Velocidad",
+      "description": "Cada funcionalidad está pensada con cuidado. No cortamos camino — construimos soluciones que se sostienen en el tiempo."
     },
     "performance": {
-      "title": "Rendimiento Primero",
-      "description": "Tiempos de carga ultrarrápidos, optimizados para escala."
+      "title": "Rápido Desde el Día Uno",
+      "description": "El rendimiento no es algo que se agrega después. Optimizamos desde el inicio para velocidad, accesibilidad y escala."
     },
     "end_to_end": {
-      "title": "De Extremo a Extremo",
-      "description": "Desde el concepto hasta el despliegue, manejamos todo el stack."
+      "title": "Diseño + Código, Bajo el Mismo Techo",
+      "description": "Sin tener que coordinar entre agencias. Estrategia, diseño, desarrollo y deployment — todo lo maneja un solo equipo."
     }
   },
   "testimonials": {
     "label": "Testimonios",
-    "title": "Lo Que Dicen los Clientes"
+    "title": "Lo Que Dicen Nuestros Clientes"
   },
   "cta": {
-    "title": "¿Listo para Construir Algo Grandioso?",
-    "subtitle": "Hablemos sobre tu proyecto y hagamos realidad tu visión.",
-    "button": "Contáctanos"
+    "title": "¿Tenés un Proyecto en Mente?",
+    "subtitle": "Contanos qué estás construyendo. Nosotros encontramos la mejor forma de hacerlo realidad.",
+    "button": "Hablemos"
   }
 }

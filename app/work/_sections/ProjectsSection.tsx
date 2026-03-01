@@ -32,8 +32,10 @@ export function ProjectsSection() {
               imageSrc={project.imageSrc}
               imageAlt={project.imageAlt}
               tags={project.tags}
+              statusLabel={project.statusLabel}
               title={t(project.titleKey)}
               subtitle={t(project.subtitleKey)}
+              animateOnView={false}
             />
           ))}
         </div>

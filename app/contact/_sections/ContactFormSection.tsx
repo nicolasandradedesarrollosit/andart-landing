@@ -4,6 +4,7 @@ import { useState } from "react";
 import { useTranslation } from "react-i18next";
 import { useForm, Controller } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
+import { m, useReducedMotion } from "framer-motion";
 import { toast } from "sonner";
 import { User, Mail, Send, Loader2 } from "lucide-react";
 import { IconInput } from "@/shared/components/forms/IconInput";
@@ -15,6 +16,7 @@ import { projectClassifications } from "@/features/contact/data/project-classifi
 export function ContactFormSection() {
   const { t } = useTranslation("contact");
   const [sending, setSending] = useState(false);
+  const shouldReduceMotion = useReducedMotion();
 
   const { register, handleSubmit, control, reset, formState: { errors } } = useForm<ContactFormData>({
     resolver: zodResolver(contactSchema),
@@ -47,7 +49,13 @@ export function ContactFormSection() {
   };
 
   return (
-    <div className="contact-form-card w-full">
+    <m.div
+      className="contact-form-card w-full"
+      initial={shouldReduceMotion ? false : { opacity: 0, y: 16 }}
+      whileInView={shouldReduceMotion ? undefined : { opacity: 1, y: 0 }}
+      viewport={{ once: true, amount: 0.2 }}
+      transition={{ duration: 0.45, ease: [0.22, 1, 0.36, 1] }}
+    >
       <p className="section-label mb-6">{t("form.section_label")}</p>
       <form className="space-y-5" onSubmit={handleSubmit(onSubmit)}>
         <IconInput
@@ -98,6 +106,6 @@ export function ContactFormSection() {
           )}
         </button>
       </form>
-    </div>
+    </m.div>
   );
 }

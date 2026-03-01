@@ -1,3 +1,6 @@
+"use client";
+
+import { m, useReducedMotion } from "framer-motion";
 import type { LucideIcon } from "lucide-react";
 import { cn } from "@/shared/lib/cn";
 
@@ -20,8 +23,17 @@ export function ServiceCard({
   variant = "large",
   className,
 }: ServiceCardProps) {
+  const shouldReduceMotion = useReducedMotion();
+
   return (
-    <div className={cn("card-highlight group", className)}>
+    <m.div
+      className={cn("card-highlight group", className)}
+      initial={shouldReduceMotion ? false : { opacity: 0, y: 18 }}
+      whileInView={shouldReduceMotion ? undefined : { opacity: 1, y: 0 }}
+      whileHover={shouldReduceMotion ? undefined : { y: -4 }}
+      viewport={{ once: true, amount: 0.25 }}
+      transition={{ duration: 0.45, ease: [0.22, 1, 0.36, 1] }}
+    >
       {BgIcon && (
         <div className="absolute top-4 right-4 opacity-5 pointer-events-none">
           <BgIcon className="w-32 h-32" />
@@ -50,6 +62,6 @@ export function ServiceCard({
           </span>
         ))}
       </div>
-    </div>
+    </m.div>
   );
 }

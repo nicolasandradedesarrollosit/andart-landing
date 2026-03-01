@@ -4,6 +4,7 @@ export interface Project {
   imageAlt: string;
   category: string;
   categoryVariant?: "primary" | "light";
+  statusLabel?: string;
   title: string;
   subtitle: string;
   featured?: boolean;

@@ -1,19 +1,19 @@
 {
-  "header": "Capacidades de Fábrica",
+  "header": "Lo Que Podemos Construir para Vos",
   "toggle": { "software": "Software", "design": "Diseño" },
   "software": {
-    "sector_label": "Sector 01",
+    "sector_label": "Ingeniería",
     "title": "Desarrollo de Software",
-    "web": { "title": "Arquitectura Web", "description": "Navegadores modernos escalables. Sistemas frontend de nivel empresarial optimizados para rendimiento." },
-    "mobile": { "title": "Sistemas Móviles", "description": "Rendimiento nativo, alcance multiplataforma. Soluciones iOS y Android con bases de código unificadas." },
-    "cloud": { "title": "Infraestructura Cloud", "description": "Pipelines DevOps resilientes. Gestión de servidores de alta disponibilidad y despliegues automatizados." }
+    "web": { "title": "Aplicaciones Web", "description": "Plataformas web modernas y responsivas pensadas para rendir. Desde SPAs hasta dashboards empresariales complejos — siempre escalables, siempre rápidas." },
+    "mobile": { "title": "Apps Móviles", "description": "Apps con calidad nativa para iOS y Android desde un solo codebase. Tus usuarios tienen una experiencia impecable, vos tenés un desarrollo eficiente." },
+    "cloud": { "title": "Cloud y DevOps", "description": "Infraestructura que se gestiona sola. Pipelines CI/CD, orquestación de contenedores y monitoreo — para que tu app esté siempre arriba y tu equipo entregue más rápido." }
   },
   "design": {
-    "sector_label": "Sector 02",
-    "title": "Diseño Gráfico",
-    "branding": { "title": "Branding", "description": "Identidades visuales que captan atención. Sistemas de marca cohesivos y activos de alta fidelidad." },
-    "uiux": { "title": "Diseño UI/UX", "description": "Interfaces centradas en el usuario con flujo preciso. Wireframing, prototipado y pruebas de usuario." },
-    "motion": { "title": "Motion Graphics", "description": "Storytelling dinámico a través de animación. Micro-interacciones y rutas de movimiento para demos." }
+    "sector_label": "Creativo",
+    "title": "Diseño y Branding",
+    "branding": { "title": "Identidad de Marca", "description": "Mucho más que un logo. Construimos sistemas visuales completos — desde paletas de color y tipografía hasta guías de marca que todo tu equipo puede usar." },
+    "uiux": { "title": "Diseño UI/UX", "description": "Interfaces que la gente disfruta usar. Investigamos, wireframeamos, prototipamos y testeamos hasta que la experiencia se sienta natural." },
+    "motion": { "title": "Motion y Animación", "description": "Dale vida a tu producto con movimiento con propósito. Micro-interacciones, animaciones explicativas y contenido dinámico que mantiene a los usuarios enganchados." }
   },
-  "cta": { "title": "¿Listo para comenzar tu proyecto?", "subtitle": "Construyamos algo extraordinario juntos.", "button": "Iniciar Nuevo Proyecto" }
+  "cta": { "title": "¿Listo para arrancar?", "subtitle": "Contanos sobre tu proyecto y encontremos juntos el mejor camino.", "button": "Iniciar Proyecto" }
 }

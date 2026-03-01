@@ -8,7 +8,7 @@ export const pillars: Pillar[] = [
     bgIcon: Terminal,
     titleKey: "landing:pillars.software.title",
     descriptionKey: "landing:pillars.software.description",
-    tags: ["React Native", "Python", "Cloud Architecture"],
+    tags: ["React Native", "TypeScript", "Node.js"],
   },
   {
     slug: "graphic-design",

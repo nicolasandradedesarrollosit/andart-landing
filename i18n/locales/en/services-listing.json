@@ -1,19 +1,19 @@
 {
-  "header": "Factory Capabilities",
+  "header": "What We Can Build for You",
   "toggle": { "software": "Software", "design": "Design" },
   "software": {
-    "sector_label": "Sector 01",
+    "sector_label": "Engineering",
     "title": "Software Development",
-    "web": { "title": "Web Architecture", "description": "Scalable modern browsers. Enterprise-grade frontend systems optimized for performance." },
-    "mobile": { "title": "Mobile Systems", "description": "Native performance, cross-platform reach. iOS and Android solutions with unified codebases." },
-    "cloud": { "title": "Cloud Infrastructure", "description": "Resilient DevOps pipelines. High-availability server management and automated deployments." }
+    "web": { "title": "Web Applications", "description": "Modern, responsive web platforms built for performance. From SPAs to complex enterprise dashboards — always scalable, always fast." },
+    "mobile": { "title": "Mobile Apps", "description": "Native-quality apps for iOS and Android from a single codebase. Your users get a seamless experience, you get efficient development." },
+    "cloud": { "title": "Cloud & DevOps", "description": "Infrastructure that runs itself. CI/CD pipelines, container orchestration, and monitoring — so your app stays up and your team ships faster." }
   },
   "design": {
-    "sector_label": "Sector 02",
-    "title": "Graphic Design",
-    "branding": { "title": "Branding", "description": "Visual identities that command attention. Cohesive brand systems and high-fidelity assets." },
-    "uiux": { "title": "UI/UX Design", "description": "User-centric interfaces with precision flow. Wireframing, prototyping, and user testing." },
-    "motion": { "title": "Motion Graphics", "description": "Dynamic storytelling through animation. Micro-interactions and product demo motion paths." }
+    "sector_label": "Creative",
+    "title": "Design & Branding",
+    "branding": { "title": "Brand Identity", "description": "More than a logo. We build complete visual systems — from color palettes and typography to brand guidelines your whole team can use." },
+    "uiux": { "title": "UI/UX Design", "description": "Interfaces people actually enjoy using. We research, wireframe, prototype, and test until the experience feels effortless." },
+    "motion": { "title": "Motion & Animation", "description": "Bring your product to life with purposeful motion. Micro-interactions, explainer animations, and dynamic content that keeps users engaged." }
   },
-  "cta": { "title": "Ready to start your project?", "subtitle": "Let's build something extraordinary together.", "button": "Initialize New Project" }
+  "cta": { "title": "Ready to get started?", "subtitle": "Tell us about your project and let's figure out the best path forward.", "button": "Start a Project" }
 }

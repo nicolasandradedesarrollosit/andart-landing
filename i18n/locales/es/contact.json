@@ -1,45 +1,45 @@
 {
-  "header": "Nodo de Comunicación",
+  "header": "Contactanos",
   "hero": {
-    "title": "Construyamos el futuro.",
-    "subtitle": "Comunícate con nuestros equipos de ingeniería y diseño para colaboración técnica."
+    "title": "Construyamos algo juntos.",
+    "subtitle": "Ya sea que necesites un producto completo o un refresh de marca, nos encantaría escuchar sobre tu proyecto."
   },
   "form": {
-    "section_label": "Entradas del Sistema",
-    "name_label": "Nombre del Operador",
-    "name_placeholder": "Ingresa tu nombre completo",
-    "email_label": "Canal de Comunicación",
-    "email_placeholder": "email@andart.dev",
-    "classification_label": "Clasificación del Proyecto",
-    "message_label": "Datos de Transmisión",
-    "message_placeholder": "Describe tu objetivo...",
-    "submit": "Iniciar Contacto",
-    "success": "Mensaje enviado correctamente. Te responderemos pronto.",
+    "section_label": "Contanos Sobre Tu Proyecto",
+    "name_label": "Tu Nombre",
+    "name_placeholder": "Nombre completo",
+    "email_label": "Email",
+    "email_placeholder": "vos@empresa.com",
+    "classification_label": "¿Qué Necesitás?",
+    "message_label": "Detalles del Proyecto",
+    "message_placeholder": "Contanos un poco sobre lo que querés construir…",
+    "submit": "Enviar Mensaje",
+    "success": "¡Mensaje recibido! Te respondemos en menos de 24 horas.",
     "send_another": "Enviar otro mensaje",
     "error": "Algo salió mal. Por favor intentá de nuevo."
   },
   "classifications": {
-    "prototyping": "Prototipado Rápido",
-    "architecture": "Arquitectura de Sistemas",
-    "uiux": "Ingeniería UI/UX",
-    "hardware": "Integración de Hardware"
+    "prototyping": "MVP / Prototipo Rápido",
+    "architecture": "Desarrollo de Software a Medida",
+    "uiux": "Diseño UI/UX de Producto",
+    "hardware": "Branding e Identidad Visual"
   },
   "location": {
-    "section_label": "Nodo Físico",
-    "hq_label": "Sede Central",
+    "section_label": "Nuestra Ubicación",
+    "hq_label": "Oficina Central",
     "address": "101 Innovation Way, Tech District"
   },
   "channels": {
-    "section_label": "Canales Directos",
-    "tech_support": { "title": "Soporte Técnico", "description": "Línea directa a nuestro equipo de ingeniería técnica." },
-    "press": { "title": "Relaciones de Prensa", "description": "Kits de medios y declaraciones oficiales de la fábrica." }
+    "section_label": "Otras Formas de Contactarnos",
+    "tech_support": { "title": "Consultas Técnicas", "description": "Preguntas sobre integraciones, APIs o proyectos en curso." },
+    "press": { "title": "Prensa y Alianzas", "description": "Consultas de medios, colaboraciones y propuestas de partnership." }
   },
-  "social": { "section_label": "Frecuencia Social" },
+  "social": { "section_label": "Seguinos" },
   "validation": {
-    "name_required": "El nombre es obligatorio.",
-    "email_required": "El email es obligatorio.",
-    "email_invalid": "Ingresa un email válido.",
-    "classification_required": "Selecciona una clasificación de proyecto.",
-    "message_min": "El mensaje debe tener al menos 10 caracteres."
+    "name_required": "Por favor ingresá tu nombre.",
+    "email_required": "Necesitamos tu email para responderte.",
+    "email_invalid": "Eso no parece un email válido.",
+    "classification_required": "Indicanos de qué tipo de proyecto se trata.",
+    "message_min": "Contanos un poco más — al menos 10 caracteres."
   }
 }

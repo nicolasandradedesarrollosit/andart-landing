@@ -2,14 +2,14 @@
   "hero": {
     "title_prefix": "Nuestro",
     "title_accent": "Trabajo",
-    "subtitle": "Productos digitales y marcas de precisión para empresas de alto crecimiento."
+    "subtitle": "Productos reales, marcas reales. Esto es lo que construimos para empresas que necesitaban buen código y buen diseño."
   },
   "filters": { "all": "Todo", "development": "Desarrollo", "design": "Diseño", "saas": "SaaS", "branding": "Branding" },
   "projects": {
-    "lumina": { "title": "Lumina CRM", "subtitle": "Planificación empresarial de próxima generación" },
-    "nexus": { "title": "Nexus Fintech App", "subtitle": "Pagos digitales transfronterizos seguros" },
-    "aether": { "title": "Aether Identity", "subtitle": "Sistema visual para ventures tecnológicos" },
-    "oryx": { "title": "Oryx Dashboard", "subtitle": "Motor analítico en tiempo real" }
+    "lumina": { "title": "Lumina CRM", "subtitle": "Un CRM moderno repensado para equipos de ventas en crecimiento" },
+    "nexus": { "title": "Nexus Fintech", "subtitle": "Pagos internacionales seguros, simplificados" },
+    "aether": { "title": "Aether Identity", "subtitle": "Sistema de marca completo para una startup tech" },
+    "oryx": { "title": "Oryx Dashboard", "subtitle": "Analítica en tiempo real que realmente se entiende" }
   },
-  "cta": { "title": "¿Tienes un proyecto en mente?", "subtitle": "Construyamos algo extraordinario juntos.", "button": "Comenzar Proyecto" }
+  "cta": { "title": "¿Tenés un proyecto en mente?", "subtitle": "Nos encantaría escucharlo. Hablemos sobre lo que necesitás.", "button": "Iniciar Proyecto" }
 }

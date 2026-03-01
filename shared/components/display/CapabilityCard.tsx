@@ -1,3 +1,6 @@
+"use client";
+
+import { m, useReducedMotion } from "framer-motion";
 import { cn } from "@/shared/lib/cn";
 import type { LucideIcon } from "lucide-react";
 
@@ -18,8 +21,17 @@ export function CapabilityCard({
   tags,
   className,
 }: CapabilityCardProps) {
+  const shouldReduceMotion = useReducedMotion();
+
   return (
-    <div className={cn("capability-card", className)}>
+    <m.div
+      className={cn("capability-card h-full", className)}
+      initial={shouldReduceMotion ? false : { opacity: 0, y: 18 }}
+      whileInView={shouldReduceMotion ? undefined : { opacity: 1, y: 0 }}
+      whileHover={shouldReduceMotion ? undefined : { y: -4 }}
+      viewport={{ once: true, amount: 0.25 }}
+      transition={{ duration: 0.45, ease: [0.22, 1, 0.36, 1] }}
+    >
       <div className="flex items-start justify-between">
         <div className="capability-card-icon">
           <Icon className="w-4 h-4 sm:w-5 sm:h-5" />
@@ -35,12 +47,12 @@ export function CapabilityCard({
       </div>
 
       {tags && tags.length > 0 && (
-        <div className="flex flex-wrap gap-2">
+        <div className="mt-auto flex flex-wrap gap-2">
           {tags.map((tag) => (
             <span key={tag} className="tech-badge">{tag}</span>
           ))}
         </div>
       )}
-    </div>
+    </m.div>
   );
 }

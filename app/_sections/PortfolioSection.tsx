@@ -36,6 +36,7 @@ export function PortfolioSection() {
               imageAlt={project.imageAlt}
               category={project.category}
               categoryVariant={project.categoryVariant}
+              statusLabel={project.statusLabel}
               title={project.title}
               subtitle={project.subtitle}
             />

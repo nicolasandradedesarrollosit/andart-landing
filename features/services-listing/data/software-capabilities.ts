@@ -14,20 +14,20 @@ export const softwareCapabilities: Capability[] = [
     codeId: "SYS.WEB.084",
     titleKey: "software.web.title",
     descriptionKey: "software.web.description",
-    tags: ["React", "Next.js", "TypeScript"],
+    tags: ["React", "Next.js", "TypeScript", "Node.js"],
   },
   {
     icon: Smartphone,
     codeId: "SYS.MOB.291",
     titleKey: "software.mobile.title",
     descriptionKey: "software.mobile.description",
-    tags: ["Flutter", "Swift", "Kotlin"],
+    tags: ["React Native"],
   },
   {
     icon: CloudCog,
     codeId: "SYS.CLD.552",
     titleKey: "software.cloud.title",
     descriptionKey: "software.cloud.description",
-    tags: ["AWS", "Docker", "Kubernetes"],
+    tags: ["AWS", "Docker", "Mongo Atlas", "Hostinger"],
   },
 ];

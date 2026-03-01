@@ -3,6 +3,7 @@ export interface PortfolioProject {
   imageSrc: string;
   imageAlt: string;
   tags: { label: string; variant: "primary" | "neutral" }[];
+  statusLabel?: string;
   titleKey: string;
   subtitleKey: string;
   category: string;
@@ -23,6 +24,7 @@ export const portfolioProjects: PortfolioProject[] = [
     imageSrc: "/images/projects/nexus-fintech.jpg",
     imageAlt: "Mobile fintech app screens",
     tags: [{ label: "Fintech", variant: "primary" }, { label: "Development", variant: "neutral" }],
+    statusLabel: "DESARROLLANDO",
     titleKey: "projects.nexus.title",
     subtitleKey: "projects.nexus.subtitle",
     category: "development",
@@ -41,6 +43,7 @@ export const portfolioProjects: PortfolioProject[] = [
     imageSrc: "/images/projects/oryx-dashboard.jpg",
     imageAlt: "Data visualization dashboard",
     tags: [{ label: "Big Data", variant: "primary" }, { label: "SaaS", variant: "neutral" }],
+    statusLabel: "DESARROLLANDO",
     titleKey: "projects.oryx.title",
     subtitleKey: "projects.oryx.subtitle",
     category: "saas",

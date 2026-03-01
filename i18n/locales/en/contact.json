@@ -1,45 +1,45 @@
 {
-  "header": "Communication Node",
+  "header": "Get in Touch",
   "hero": {
-    "title": "Let's build the future.",
-    "subtitle": "Reach out to our engineering and design teams for technical collaboration."
+    "title": "Let's build something together.",
+    "subtitle": "Whether you need a full product built or a brand refresh, we'd love to hear about your project."
   },
   "form": {
-    "section_label": "System Inputs",
-    "name_label": "Operator Name",
-    "name_placeholder": "Enter full name",
-    "email_label": "Communication Channel",
-    "email_placeholder": "email@andart.dev",
-    "classification_label": "Project Classification",
-    "message_label": "Transmission Data",
-    "message_placeholder": "Describe your objective...",
-    "submit": "Initiate Contact",
-    "success": "Message sent successfully. We'll get back to you soon.",
+    "section_label": "Tell Us About Your Project",
+    "name_label": "Your Name",
+    "name_placeholder": "Full name",
+    "email_label": "Email",
+    "email_placeholder": "you@company.com",
+    "classification_label": "What Do You Need?",
+    "message_label": "Project Details",
+    "message_placeholder": "Tell us a bit about what you're looking to build…",
+    "submit": "Send Message",
+    "success": "Message received! We'll get back to you within 24 hours.",
     "send_another": "Send another message",
     "error": "Something went wrong. Please try again."
   },
   "classifications": {
-    "prototyping": "Rapid Prototyping",
-    "architecture": "System Architecture",
-    "uiux": "UI/UX Engineering",
-    "hardware": "Hardware Integration"
+    "prototyping": "MVP / Rapid Prototype",
+    "architecture": "Custom Software Development",
+    "uiux": "UI/UX & Product Design",
+    "hardware": "Branding & Visual Identity"
   },
   "location": {
-    "section_label": "Physical Node",
+    "section_label": "Our Location",
     "hq_label": "Headquarters",
     "address": "101 Innovation Way, Tech District"
   },
   "channels": {
-    "section_label": "Direct Channels",
-    "tech_support": { "title": "Tech Support", "description": "Direct line to our technical engineering squad." },
-    "press": { "title": "Press Relations", "description": "Media kits and official factory statements." }
+    "section_label": "Other Ways to Reach Us",
+    "tech_support": { "title": "Technical Inquiries", "description": "Questions about integrations, APIs, or ongoing projects." },
+    "press": { "title": "Press & Partnerships", "description": "Media inquiries, collaborations, and partnership proposals." }
   },
-  "social": { "section_label": "Social Frequency" },
+  "social": { "section_label": "Follow Us" },
   "validation": {
-    "name_required": "Name is required.",
-    "email_required": "Email is required.",
-    "email_invalid": "Enter a valid email address.",
-    "classification_required": "Select a project classification.",
-    "message_min": "Message must be at least 10 characters."
+    "name_required": "Please enter your name.",
+    "email_required": "We need your email to get back to you.",
+    "email_invalid": "That doesn't look like a valid email.",
+    "classification_required": "Let us know what kind of project this is.",
+    "message_min": "Tell us a bit more — at least 10 characters."
   }
 }
