@@ -36,7 +36,7 @@ export function ProjectCard({
       className={cn("group block card-base overflow-hidden p-0", className)}
     >
       <m.div
-        className="relative aspect-video overflow-hidden"
+        className="relative aspect-video overflow-hidden bg-[var(--color-surface)]"
         initial={shouldReduceMotion ? false : { opacity: 0, y: 20 }}
         whileInView={shouldReduceMotion ? undefined : { opacity: 1, y: 0 }}
         whileHover={shouldReduceMotion ? undefined : { y: -5 }}
@@ -47,7 +47,7 @@ export function ProjectCard({
           src={imageSrc}
           alt={imageAlt}
           fill
-          className="object-cover transition-transform duration-500 group-hover:scale-105"
+          className="object-contain transition-transform duration-500"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent" />
 

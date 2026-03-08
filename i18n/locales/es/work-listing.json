@@ -6,10 +6,14 @@
   },
   "filters": { "all": "Todo", "development": "Desarrollo", "design": "Diseño", "saas": "SaaS", "branding": "Branding" },
   "projects": {
-    "lumina": { "title": "Lumina CRM", "subtitle": "Un CRM moderno repensado para equipos de ventas en crecimiento" },
-    "nexus": { "title": "Nexus Fintech", "subtitle": "Pagos internacionales seguros, simplificados" },
-    "aether": { "title": "Aether Identity", "subtitle": "Sistema de marca completo para una startup tech" },
-    "oryx": { "title": "Oryx Dashboard", "subtitle": "Analítica en tiempo real que realmente se entiende" }
+    "resilio": { "title": "Resilio", "subtitle": "Diseño y desarrollo de plataforma SaaS" },
+    "roma": { "title": "Roma", "subtitle": "Desarrollo web full-stack" },
+    "rossence": { "title": "Rossence", "subtitle": "Diseño UI/UX e identidad de marca" },
+    "certifiedDripper": { "title": "Certified Dripper", "subtitle": "Identidad de marca y diseño visual" },
+    "kingu": { "title": "Kingu", "subtitle": "Identidad de marca" },
+    "todoMates": { "title": "Todo Mates", "subtitle": "Branding de app e identidad visual" },
+    "juve": { "title": "Juve", "subtitle": "Identidad de marca" },
+    "sneakersClub": { "title": "Sneakers Club", "subtitle": "Identidad de marca y diseño visual" }
   },
   "cta": { "title": "¿Tenés un proyecto en mente?", "subtitle": "Nos encantaría escucharlo. Hablemos sobre lo que necesitás.", "button": "Iniciar Proyecto" }
 }

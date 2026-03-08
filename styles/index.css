@@ -304,7 +304,7 @@
 
   /* --- Portfolio Card --- */
   .portfolio-card-image {
-    @apply aspect-[4/5] overflow-hidden rounded-xl relative ring-1 transition-all;
+    @apply aspect-video overflow-hidden rounded-xl relative ring-1 transition-all bg-[var(--color-surface)];
     ring-color: var(--color-border);
   }
 

@@ -53,7 +53,7 @@ export function PortfolioCard({
           src={imageSrc}
           alt={imageAlt}
           fill
-          className="object-cover transition-transform duration-500 group-hover:scale-105"
+          className="object-contain transition-transform duration-500"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent" />
 
