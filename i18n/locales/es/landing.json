@@ -60,11 +60,7 @@
       "description": "Sin tener que coordinar entre agencias. Estrategia, diseño, desarrollo y deployment — todo lo maneja un solo equipo."
     }
   },
-  "testimonials": {
-    "label": "Testimonios",
-    "title": "Lo Que Dicen Nuestros Clientes"
-  },
-  "cta": {
+"cta": {
     "title": "¿Tenés un Proyecto en Mente?",
     "subtitle": "Contanos qué estás construyendo. Nosotros encontramos la mejor forma de hacerlo realidad.",
     "button": "Hablemos"

@@ -60,11 +60,7 @@
       "description": "No more juggling agencies. Strategy, design, development, and deployment — all handled by one team."
     }
   },
-  "testimonials": {
-    "label": "Testimonials",
-    "title": "What Our Clients Say"
-  },
-  "cta": {
+"cta": {
     "title": "Got a Project in Mind?",
     "subtitle": "Tell us what you're building. We'll figure out the best way to make it happen.",
     "button": "Let's Talk"
