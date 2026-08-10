@@ -49,8 +49,7 @@ export function ServiceCard({
       </h3>
 
       <p
-        className={cn("mb-3 sm:mb-4", variant === "large" ? "text-sm sm:text-base" : "text-xs sm:text-sm")}
-        style={{ color: "var(--color-text-secondary)" }}
+        className={cn("mb-3 sm:mb-4 text-[var(--color-text-secondary)]", variant === "large" ? "text-sm sm:text-base" : "text-xs sm:text-sm")}
       >
         {description}
       </p>

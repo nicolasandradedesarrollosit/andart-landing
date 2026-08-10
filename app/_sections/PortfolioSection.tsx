@@ -4,6 +4,7 @@ import { useTranslation } from "react-i18next";
 import { ArrowRight } from "lucide-react";
 import Link from "next/link";
 import { SectionHeader } from "@/shared/components/display/SectionHeader";
+import { FeaturedProjectCard } from "@/shared/components/display/FeaturedProjectCard";
 import { ProjectCard } from "@/shared/components/display/ProjectCard";
 import { Container } from "@/shared/components/layout/Container";
 import { Section } from "@/shared/components/layout/Section";
@@ -12,23 +13,33 @@ import { featuredProjects } from "@/features/landing/data/projects";
 
 export function PortfolioSection() {
   const { t } = useTranslation("landing");
+  const [featured, ...rest] = featuredProjects;
 
   return (
-    <Section className="bg-[var(--color-surface)] border-t border-[var(--color-border)]">
+    <Section>
       <Container>
         <div className="flex items-end justify-between mb-6 sm:mb-8 md:mb-12">
           <SectionHeader label={t("portfolio.label")} title={t("portfolio.title")} />
           <Link
             href={ROUTES.WORK}
-            className="hidden md:flex items-center gap-2 text-sm font-medium hover:text-[var(--color-primary)] transition-colors"
+            className="hidden md:flex items-center gap-2 text-sm font-medium hover:text-[var(--color-primary)] transition-colors cursor-pointer"
           >
             {t("portfolio.view_all")}
             <ArrowRight className="w-4 h-4" />
           </Link>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6">
-          {featuredProjects.map((project) => (
+        <FeaturedProjectCard
+          href={`${ROUTES.WORK}/${featured.slug}`}
+          imageSrc={featured.imageSrc}
+          imageAlt={featured.imageAlt}
+          category={featured.category}
+          title={featured.title}
+          subtitle={featured.subtitle}
+        />
+
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">
+          {rest.map((project) => (
             <ProjectCard
               key={project.slug}
               href={`${ROUTES.WORK}/${project.slug}`}
@@ -36,7 +47,6 @@ export function PortfolioSection() {
               imageAlt={project.imageAlt}
               category={project.category}
               categoryVariant={project.categoryVariant}
-              statusLabel={project.statusLabel}
               title={project.title}
               subtitle={project.subtitle}
             />

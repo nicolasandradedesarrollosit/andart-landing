@@ -44,7 +44,7 @@ export function Header() {
                 <Link
                   key={item.href}
                   href={item.href}
-                  className="text-sm font-medium hover:text-[var(--color-primary)] transition-colors"
+                  className="text-sm font-medium hover:text-[var(--color-primary)] transition-colors cursor-pointer"
                 >
                   {t(item.label)}
                 </Link>
@@ -54,7 +54,7 @@ export function Header() {
             </nav>
 
             <button
-              className="md:hidden p-3"
+              className="md:hidden p-3 cursor-pointer"
               onClick={() => setMobileOpen(true)}
               aria-label="Open menu"
             >

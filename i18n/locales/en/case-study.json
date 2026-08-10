@@ -1,0 +1,69 @@
+{
+  "meta": {
+    "year": "Year",
+    "services": "Services",
+    "techStack": "Tech Stack",
+    "challenge": "The Challenge",
+    "solution": "Our Solution",
+    "gallery": "Project Gallery",
+    "prev": "Previous Project",
+    "next": "Next Project",
+    "backToWork": "Back to Work"
+  },
+  "thel": {
+    "title": "Thel",
+    "subtitle": "Custom ERP system for poultry distribution",
+    "services": "Full-Stack Development, UI/UX Design, Database Architecture",
+    "challenge": "A poultry distribution company in Buenos Aires needed to replace their manual order tracking and client management processes. They were handling hundreds of daily orders across multiple branches using spreadsheets, leading to errors, missed deliveries, and no visibility into their business metrics.",
+    "solution": "We built Thel, a custom ERP platform tailored to their distribution workflow. The system features client management, order creation with branch and date selection, balance tracking, and role-based access control. The clean, minimal interface ensures staff can process orders quickly, while the backend handles complex business logic for inventory and billing across branches."
+  },
+  "blazek": {
+    "title": "Blazek",
+    "subtitle": "Landing page & marketing campaign for Buenos Aires clothing brand",
+    "services": "Landing Page Development, Marketing Campaign, UI/UX Design",
+    "challenge": "Blazek, an emerging streetwear brand from Buenos Aires, needed a high-converting landing page to build hype before their official launch. They wanted to capture emails for an exclusive waitlist while communicating their brand's attitude — bold, youthful, and unapologetically Argentine.",
+    "solution": "We designed and developed a conversion-focused landing page with a striking dark blue and orange color palette. The hero section features bold typography with their manifesto 'El cambio es lo único seguro', paired with a dynamic product showcase. We integrated a waitlist system with a 200-spot exclusive pre-sale mechanic that drove urgency, resulting in +1200 community signups before launch."
+  },
+  "rossence": {
+    "title": "Rossence",
+    "subtitle": "Perfume brand identity & UI/UX design",
+    "services": "Brand Identity, UI/UX Design, Social Media",
+    "challenge": "Rossence needed a complete brand identity that would position them as a premium perfume brand in a saturated market. They wanted a visual system that felt luxurious yet modern, spanning from digital presence to physical packaging.",
+    "solution": "We crafted a sophisticated typographic identity centered around the RR monogram, paired with a minimalist black-and-white palette. The brand system was designed to work seamlessly across iPhone mockups, social media content, and print materials, creating a cohesive experience at every touchpoint."
+  },
+  "certifiedDripper": {
+    "title": "Certified Dripper",
+    "subtitle": "Streetwear brand identity & 3D design",
+    "services": "Brand Identity, Logo Design, 3D Visualization",
+    "challenge": "Certified Dripper needed a brand identity that could stand out in the competitive streetwear space. The brand needed to feel bold, urban, and instantly recognizable — from logo to product mockups.",
+    "solution": "We designed a distinctive star-orbit logomark that captures movement and energy. The identity was extended into 3D product visualizations, including a premium puffer jacket render that showcases the logo in context. The result is a brand that feels both street-credible and premium."
+  },
+  "kingu": {
+    "title": "Kingu",
+    "subtitle": "Brand identity system",
+    "services": "Brand Identity, Logo Design",
+    "challenge": "Kingu Company needed a versatile brand identity that could work across multiple contexts — from apparel to digital platforms. They wanted a logo that conveyed strength and dynamism while remaining clean and timeless.",
+    "solution": "We developed two complementary logo variations: an oval badge mark with bold angular typography for heritage applications, and a sleek K lettermark with speed lines for modern contexts. Together, they form a flexible brand system that adapts to any medium."
+  },
+  "todoMates": {
+    "title": "Todo Mates",
+    "subtitle": "Mate brand visual identity",
+    "services": "Brand Identity, Logo Design, Illustration",
+    "challenge": "Todo Mates, a mate accessories brand, needed a hand-crafted visual identity that celebrated Argentine mate culture while feeling fresh and contemporary for a younger audience.",
+    "solution": "We created a custom hand-drawn logotype where the typography is shaped into a mate cup with bombilla, making the product itself inseparable from the brand name. The organic, artisanal style reinforces the handmade quality of their products."
+  },
+  "juve": {
+    "title": "Juve",
+    "subtitle": "Music artist brand identity",
+    "services": "Brand Identity, Cover Art Design",
+    "challenge": "Juve, a music artist, needed a visual identity for their releases that captured their aesthetic — dark, urban, and energetic with a strong visual presence across streaming platforms and social media.",
+    "solution": "We designed a neon-pink glowing graffiti-style logotype set against a dark, textured background with hand-drawn character illustrations. The design captures the raw energy of the artist's sound while creating an instantly memorable visual for album covers and promotional materials."
+  },
+  "sneakersClub": {
+    "title": "Sneakers Club",
+    "subtitle": "Sneaker brand identity & 3D design",
+    "services": "Brand Identity, 3D Typography, Visual Design",
+    "challenge": "Sneakers Club needed a bold visual identity that would grab attention in the sneaker culture space. The brand needed to feel premium, playful, and collector-oriented.",
+    "solution": "We created a striking 3D bubble typography treatment in vibrant red, with a sneaker silhouette integrated into the letterforms. The reflective surface and dark background create a dramatic, collector-grade aesthetic that works across merchandise, social media, and retail environments."
+  }
+}

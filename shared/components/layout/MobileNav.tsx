@@ -20,12 +20,10 @@ export function MobileNav({ open, onClose }: MobileNavProps) {
   return (
     <div className="fixed inset-0 z-[60] md:hidden">
       <div className="absolute inset-0 bg-black/50" onClick={onClose} />
-      <nav className="absolute right-0 top-0 h-full w-[80vw] max-w-sm p-6 flex flex-col gap-6 border-l"
-        style={{ background: "var(--color-bg)", borderColor: "var(--color-border)" }}
-      >
+      <nav className="absolute right-0 top-0 h-full w-[80vw] max-w-sm p-6 flex flex-col gap-6 border-l bg-[var(--color-bg)] border-[var(--color-border)]">
         <div className="flex items-center justify-between">
           <span className="font-bold text-lg">Menu</span>
-          <button onClick={onClose} className="p-2" aria-label="Close menu">
+          <button onClick={onClose} className="p-2 cursor-pointer" aria-label="Close menu">
             <X className="w-5 h-5" />
           </button>
         </div>
@@ -38,7 +36,7 @@ export function MobileNav({ open, onClose }: MobileNavProps) {
                 key={item.href}
                 href={item.href}
                 onClick={onClose}
-                className="flex items-center gap-3 text-sm font-medium py-2 hover:text-[var(--color-primary)] transition-colors"
+                className="flex items-center gap-3 text-sm font-medium py-2 hover:text-[var(--color-primary)] transition-colors cursor-pointer"
               >
                 <Icon className="w-5 h-5" />
                 {t(item.label)}

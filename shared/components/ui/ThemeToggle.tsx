@@ -9,8 +9,7 @@ export function ThemeToggle() {
   return (
     <button
       onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
-      className="p-2 rounded-lg border transition-colors hover:border-[var(--color-border-hover)]"
-      style={{ borderColor: "var(--color-border)" }}
+      className="p-2 rounded-lg border border-[var(--color-border)] transition-colors hover:border-[var(--color-border-hover)] cursor-pointer"
       aria-label="Toggle theme"
     >
       <Sun className="w-4 h-4 hidden dark:block" />

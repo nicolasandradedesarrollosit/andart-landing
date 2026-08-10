@@ -24,19 +24,23 @@
     "title": "De la Idea al Lanzamiento",
     "step1": {
       "title": "Descubrimiento",
-      "description": "Nos sentamos con vos para entender tus objetivos, tus usuarios y cómo se ve el éxito."
+      "description": "Nos sentamos con vos para entender tus objetivos, tus usuarios y cómo se ve el éxito.",
+      "duration": "~1 semana"
     },
     "step2": {
       "title": "Diseño",
-      "description": "Definimos la arquitectura y creamos prototipos de alta fidelidad antes de escribir una sola línea de código."
+      "description": "Definimos la arquitectura y creamos prototipos de alta fidelidad antes de escribir una sola línea de código.",
+      "duration": "~2 semanas"
     },
     "step3": {
       "title": "Construcción",
-      "description": "Sprints iterativos con entregables reales. Ves avances cada semana, no solo al final."
+      "description": "Sprints iterativos con entregables reales. Ves avances cada semana, no solo al final.",
+      "duration": "~4-8 semanas"
     },
     "step4": {
       "title": "Lanzamiento y Crecimiento",
-      "description": "Desplegamos, monitoreamos y nos quedamos para optimizar. Tu lanzamiento es un comienzo, no una despedida."
+      "description": "Desplegamos, monitoreamos y nos quedamos para optimizar. Tu lanzamiento es un comienzo, no una despedida.",
+      "duration": "Continuo"
     }
   },
   "portfolio": {
@@ -60,9 +64,16 @@
       "description": "Sin tener que coordinar entre agencias. Estrategia, diseño, desarrollo y deployment — todo lo maneja un solo equipo."
     }
   },
-"cta": {
+"socialProof": {
+    "metric1": { "value": "20+", "label": "Proyectos Entregados" },
+    "metric2": { "value": "6+", "label": "Industrias Atendidas" },
+    "metric3": { "value": "100%", "label": "Retención de Clientes" },
+    "metric4": { "value": "2→1", "label": "Disciplinas, Un Equipo" }
+  },
+  "cta": {
     "title": "¿Tenés un Proyecto en Mente?",
     "subtitle": "Contanos qué estás construyendo. Nosotros encontramos la mejor forma de hacerlo realidad.",
-    "button": "Hablemos"
+    "button": "Hablemos",
+    "cta_secondary": "Ver Nuestro Trabajo"
   }
 }

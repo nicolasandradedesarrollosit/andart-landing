@@ -36,7 +36,7 @@ export function PortfolioCard({
   const shouldReduceMotion = useReducedMotion();
 
   return (
-    <Link href={href} className={cn("group block", className)}>
+    <Link href={href} className={cn("group block cursor-pointer", className)}>
       <m.div
         className="portfolio-card-image"
         initial={
@@ -53,7 +53,8 @@ export function PortfolioCard({
           src={imageSrc}
           alt={imageAlt}
           fill
-          className="object-contain transition-transform duration-500"
+          sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
+          className="object-cover transition-transform duration-500"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent" />
 

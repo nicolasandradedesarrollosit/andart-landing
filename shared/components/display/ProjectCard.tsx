@@ -33,7 +33,7 @@ export function ProjectCard({
   return (
     <Link
       href={href}
-      className={cn("group block card-base overflow-hidden p-0", className)}
+      className={cn("group block card-base overflow-hidden p-0 cursor-pointer", className)}
     >
       <m.div
         className="relative aspect-video overflow-hidden bg-[var(--color-surface)]"
@@ -47,7 +47,8 @@ export function ProjectCard({
           src={imageSrc}
           alt={imageAlt}
           fill
-          className="object-contain transition-transform duration-500"
+          sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
+          className="object-cover transition-transform duration-500"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent" />
 

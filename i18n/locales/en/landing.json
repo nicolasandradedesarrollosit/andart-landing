@@ -24,19 +24,23 @@
     "title": "From Idea to Launch",
     "step1": {
       "title": "Discover",
-      "description": "We sit down with you to understand your goals, your users, and what success looks like."
+      "description": "We sit down with you to understand your goals, your users, and what success looks like.",
+      "duration": "~1 week"
     },
     "step2": {
       "title": "Design",
-      "description": "We map out the architecture and create high-fidelity prototypes before writing a single line of code."
+      "description": "We map out the architecture and create high-fidelity prototypes before writing a single line of code.",
+      "duration": "~2 weeks"
     },
     "step3": {
       "title": "Build",
-      "description": "Iterative sprints with real deliverables. You see progress every week, not just at the end."
+      "description": "Iterative sprints with real deliverables. You see progress every week, not just at the end.",
+      "duration": "~4-8 weeks"
     },
     "step4": {
       "title": "Launch & Grow",
-      "description": "We deploy, monitor, and stick around to optimize. Your launch is a beginning, not a handoff."
+      "description": "We deploy, monitor, and stick around to optimize. Your launch is a beginning, not a handoff.",
+      "duration": "Ongoing"
     }
   },
   "portfolio": {
@@ -60,9 +64,16 @@
       "description": "No more juggling agencies. Strategy, design, development, and deployment — all handled by one team."
     }
   },
-"cta": {
+"socialProof": {
+    "metric1": { "value": "20+", "label": "Projects Delivered" },
+    "metric2": { "value": "6+", "label": "Industries Served" },
+    "metric3": { "value": "100%", "label": "Client Retention" },
+    "metric4": { "value": "2→1", "label": "Disciplines, One Team" }
+  },
+  "cta": {
     "title": "Got a Project in Mind?",
     "subtitle": "Tell us what you're building. We'll figure out the best way to make it happen.",
-    "button": "Let's Talk"
+    "button": "Let's Talk",
+    "cta_secondary": "See Our Work"
   }
 }

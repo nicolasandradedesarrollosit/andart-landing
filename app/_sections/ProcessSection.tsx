@@ -22,7 +22,8 @@ export function ProcessSection() {
               icon={step.icon}
               title={t(step.titleKey)}
               description={t(step.descriptionKey)}
-              isActive={index === 0}
+              badge={t(step.durationKey)}
+              isLast={index === processSteps.length - 1}
             />
           ))}
         </div>

@@ -13,7 +13,7 @@ interface CodeSnippetProps {
 export function CodeSnippet({ lines, className }: CodeSnippetProps) {
   return (
     <div className={cn("code-window", className)}>
-      <div className="p-4 border-b" style={{ borderColor: "var(--color-border)" }}>
+      <div className="p-4 border-b border-[var(--color-border)]">
         <div className="code-window-dots">
           <div className="code-window-dot bg-red-500" />
           <div className="code-window-dot bg-yellow-500" />

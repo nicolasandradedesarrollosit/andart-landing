@@ -29,7 +29,7 @@
     /* --- Text (Light Mode) --- */
     --color-text-primary: #0f172a;
     --color-text-secondary: #64748b;
-    --color-text-muted: #94a3b8;
+    --color-text-muted: #78859b;
 
     /* --- Border --- */
     --color-border: rgba(0, 0, 0, 0.08);
@@ -64,8 +64,8 @@
     --color-surface-highlight: #1e1e1e;
 
     --color-text-primary: #f1f5f9;
-    --color-text-secondary: #94a3b8;
-    --color-text-muted: #64748b;
+    --color-text-secondary: #a1afc0;
+    --color-text-muted: #7a8696;
 
     --color-border: rgba(255, 255, 255, 0.05);
     --color-border-hover: rgba(5, 147, 255, 0.5);
@@ -216,7 +216,7 @@
 
   /* --- Channel Card --- */
   .channel-card {
-    @apply p-4 rounded-xl border transition-colors;
+    @apply p-4 rounded-xl border transition-colors cursor-pointer;
     background: var(--color-surface);
     border-color: var(--color-border);
   }
@@ -250,7 +250,7 @@
     @apply inline-flex items-center justify-center gap-2
            px-5 sm:px-8 h-11 sm:h-12 md:h-14
            rounded-lg text-sm sm:text-base font-bold tracking-wide
-           transition-all duration-200;
+           transition-all duration-200 cursor-pointer;
     background: var(--color-primary);
     color: white;
     box-shadow: var(--shadow-glow-primary);
@@ -264,7 +264,7 @@
     @apply inline-flex items-center justify-center gap-2
            px-5 sm:px-8 h-11 sm:h-12 md:h-14
            rounded-lg text-sm sm:text-base font-medium tracking-wide
-           border transition-all duration-200;
+           border transition-all duration-200 cursor-pointer;
     border-color: var(--color-border);
     color: var(--color-text-primary);
     background: transparent;
@@ -276,7 +276,7 @@
 
   .btn-dark {
     @apply inline-flex items-center justify-center gap-2
-           w-full py-3 rounded-lg font-semibold transition-colors;
+           w-full py-3 rounded-lg font-semibold transition-colors cursor-pointer;
     background: var(--color-text-primary);
     color: var(--color-bg);
   }
@@ -343,18 +343,18 @@
   }
 
   .pillar-toggle-item {
-    @apply flex h-full flex-1 items-center justify-center rounded-lg px-2 text-xs sm:text-sm font-bold uppercase tracking-wider transition-all;
+    @apply flex h-full flex-1 items-center justify-center rounded-lg px-2 text-xs sm:text-sm font-bold uppercase tracking-wider transition-all cursor-pointer;
     color: var(--color-text-muted);
   }
 
   .pillar-toggle-item-active {
-    @apply flex h-full flex-1 items-center justify-center rounded-lg px-2 text-xs sm:text-sm font-bold uppercase tracking-wider shadow-lg;
+    @apply flex h-full flex-1 items-center justify-center rounded-lg px-2 text-xs sm:text-sm font-bold uppercase tracking-wider shadow-lg cursor-pointer;
     background: var(--color-primary);
     color: white;
   }
 
   .filter-chip {
-    @apply flex h-9 sm:h-10 shrink-0 items-center justify-center rounded-xl px-4 sm:px-6 text-xs sm:text-sm font-medium transition-all;
+    @apply flex h-9 sm:h-10 shrink-0 items-center justify-center rounded-xl px-4 sm:px-6 text-xs sm:text-sm font-medium transition-all cursor-pointer;
     background: var(--color-surface-highlight);
     color: var(--color-text-secondary);
   }
@@ -364,7 +364,7 @@
   }
 
   .filter-chip-active {
-    @apply flex h-9 sm:h-10 shrink-0 items-center justify-center rounded-xl px-4 sm:px-6 text-xs sm:text-sm font-semibold transition-all;
+    @apply flex h-9 sm:h-10 shrink-0 items-center justify-center rounded-xl px-4 sm:px-6 text-xs sm:text-sm font-semibold transition-all cursor-pointer;
     background: var(--color-primary);
     color: white;
   }
@@ -476,7 +476,7 @@
 
   /* --- Social --- */
   .social-link {
-    @apply flex-1 flex items-center justify-center py-2.5 sm:py-3 rounded-lg border transition-all;
+    @apply flex-1 flex items-center justify-center py-2.5 sm:py-3 rounded-lg border transition-all cursor-pointer;
     background: var(--color-surface);
     border-color: var(--color-border);
     color: var(--color-text-muted);
@@ -555,8 +555,73 @@
   .code-syntax-keyword { color: #c084fc; }
   .code-syntax-function { color: var(--color-primary); }
   .code-syntax-string { color: #4ade80; }
-  .code-syntax-comment { color: #64748b; }
+  .code-syntax-comment { color: #7a8696; }
   .code-syntax-class { color: #facc15; }
+
+  /* --- Featured Code Window (Hero) --- */
+  .code-window-featured {
+    @apply w-full relative overflow-hidden rounded-2xl border;
+    background: var(--color-surface);
+    border-color: var(--color-primary-border);
+    box-shadow: 0 0 40px rgba(5, 147, 255, 0.08), 0 20px 60px rgba(0, 0, 0, 0.2);
+  }
+
+  .dark .code-window-featured {
+    box-shadow: 0 0 40px rgba(5, 147, 255, 0.12), 0 20px 60px rgba(0, 0, 0, 0.5);
+  }
+
+  .code-line-number {
+    @apply select-none text-right pr-4 inline-block w-8 font-mono;
+    color: var(--color-text-muted);
+    font-size: 0.7rem;
+  }
+
+  /* --- Hero Gradient Border --- */
+  .hero-gradient-border {
+    @apply w-full h-px;
+    background: linear-gradient(90deg, transparent, var(--color-primary), transparent);
+  }
+
+  /* --- Featured Project Card --- */
+  .featured-project-card {
+    @apply relative w-full overflow-hidden rounded-2xl;
+    min-height: 280px;
+  }
+
+  .featured-project-overlay {
+    @apply absolute inset-0 transition-all duration-500;
+    background: linear-gradient(to top, rgba(0,0,0,0.85) 0%, rgba(0,0,0,0.2) 50%, rgba(0,0,0,0.05) 100%);
+  }
+
+  .group:hover .featured-project-overlay {
+    background: linear-gradient(to top, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.3) 50%, rgba(0,0,0,0.1) 100%);
+  }
+
+  /* --- Case Study --- */
+  .case-study-hero {
+    @apply relative w-full overflow-hidden;
+    min-height: 50vh;
+  }
+
+  .case-study-meta dt {
+    @apply text-xs uppercase tracking-wider font-bold mb-1;
+    color: var(--color-text-muted);
+  }
+
+  .case-study-meta dd {
+    @apply text-sm font-medium;
+    color: var(--color-text-primary);
+  }
+
+  .case-study-nav-card {
+    @apply flex-1 rounded-xl border p-4 sm:p-6 transition-colors cursor-pointer;
+    background: var(--color-surface);
+    border-color: var(--color-border);
+  }
+
+  .case-study-nav-card:hover {
+    border-color: var(--color-border-hover);
+  }
 }
 
 /* ============================================================
@@ -665,7 +730,7 @@
   --secondary: #1e1e1e;
   --secondary-foreground: #f1f5f9;
   --muted: #1e1e1e;
-  --muted-foreground: #64748b;
+  --muted-foreground: #7a8696;
   --accent: #1e1e1e;
   --accent-foreground: #f1f5f9;
   --destructive: oklch(0.704 0.191 22.216);

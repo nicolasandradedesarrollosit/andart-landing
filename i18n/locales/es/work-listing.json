@@ -4,10 +4,10 @@
     "title_accent": "Trabajo",
     "subtitle": "Productos reales, marcas reales. Esto es lo que construimos para empresas que necesitaban buen código y buen diseño."
   },
-  "filters": { "all": "Todo", "development": "Desarrollo", "design": "Diseño", "saas": "SaaS", "branding": "Branding" },
+  "filters": { "all": "Todo", "development": "Desarrollo", "design": "Diseño", "branding": "Branding" },
   "projects": {
-    "resilio": { "title": "Resilio", "subtitle": "Diseño y desarrollo de plataforma SaaS" },
-    "roma": { "title": "Roma", "subtitle": "Desarrollo web full-stack" },
+    "thel": { "title": "Thel", "subtitle": "Sistema ERP para distribución avícola" },
+    "blazek": { "title": "Blazek", "subtitle": "Landing page y campaña de marketing" },
     "rossence": { "title": "Rossence", "subtitle": "Diseño UI/UX e identidad de marca" },
     "certifiedDripper": { "title": "Certified Dripper", "subtitle": "Identidad de marca y diseño visual" },
     "kingu": { "title": "Kingu", "subtitle": "Identidad de marca" },

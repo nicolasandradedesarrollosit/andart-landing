@@ -22,8 +22,7 @@ export function LanguageToggle() {
     <DropdownMenu>
       <DropdownMenuTrigger asChild>
         <button
-          className="flex items-center gap-1.5 p-2 rounded-lg border transition-colors hover:border-[var(--color-border-hover)]"
-          style={{ borderColor: "var(--color-border)" }}
+          className="flex items-center gap-1.5 p-2 rounded-lg border border-[var(--color-border)] transition-colors hover:border-[var(--color-border-hover)] cursor-pointer"
           aria-label="Select language"
         >
           <Globe className="w-4 h-4" />

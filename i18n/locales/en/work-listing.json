@@ -4,10 +4,10 @@
     "title_accent": "Work",
     "subtitle": "Real products, real brands. Here's what we've built for companies that needed both great code and great design."
   },
-  "filters": { "all": "All", "development": "Development", "design": "Design", "saas": "SaaS", "branding": "Branding" },
+  "filters": { "all": "All", "development": "Development", "design": "Design", "branding": "Branding" },
   "projects": {
-    "resilio": { "title": "Resilio", "subtitle": "SaaS platform design and development" },
-    "roma": { "title": "Roma", "subtitle": "Full-stack web development" },
+    "thel": { "title": "Thel", "subtitle": "ERP system for poultry distribution" },
+    "blazek": { "title": "Blazek", "subtitle": "Landing page and marketing campaign" },
     "rossence": { "title": "Rossence", "subtitle": "UI/UX design and brand identity" },
     "certifiedDripper": { "title": "Certified Dripper", "subtitle": "Brand identity and visual design" },
     "kingu": { "title": "Kingu", "subtitle": "Brand identity" },

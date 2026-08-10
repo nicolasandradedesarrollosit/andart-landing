@@ -10,12 +10,14 @@ import landingEN from "@/i18n/locales/en/landing.json";
 import servicesListingEN from "@/i18n/locales/en/services-listing.json";
 import workListingEN from "@/i18n/locales/en/work-listing.json";
 import contactEN from "@/i18n/locales/en/contact.json";
+import caseStudyEN from "@/i18n/locales/en/case-study.json";
 
 import commonES from "@/i18n/locales/es/common.json";
 import landingES from "@/i18n/locales/es/landing.json";
 import servicesListingES from "@/i18n/locales/es/services-listing.json";
 import workListingES from "@/i18n/locales/es/work-listing.json";
 import contactES from "@/i18n/locales/es/contact.json";
+import caseStudyES from "@/i18n/locales/es/case-study.json";
 
 if (!i18n.isInitialized) {
   i18n
@@ -29,6 +31,7 @@ if (!i18n.isInitialized) {
           "services-listing": servicesListingEN,
           "work-listing": workListingEN,
           contact: contactEN,
+          "case-study": caseStudyEN,
         },
         es: {
           common: commonES,
@@ -36,6 +39,7 @@ if (!i18n.isInitialized) {
           "services-listing": servicesListingES,
           "work-listing": workListingES,
           contact: contactES,
+          "case-study": caseStudyES,
         },
       },
       supportedLngs: ["en", "es"],

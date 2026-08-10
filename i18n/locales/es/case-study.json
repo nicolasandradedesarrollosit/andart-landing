@@ -1,0 +1,69 @@
+{
+  "meta": {
+    "year": "Año",
+    "services": "Servicios",
+    "techStack": "Herramientas",
+    "challenge": "El Desafío",
+    "solution": "Nuestra Solución",
+    "gallery": "Galería del Proyecto",
+    "prev": "Proyecto Anterior",
+    "next": "Proyecto Siguiente",
+    "backToWork": "Volver a Trabajo"
+  },
+  "thel": {
+    "title": "Thel",
+    "subtitle": "Sistema ERP a medida para distribución avícola",
+    "services": "Desarrollo Full-Stack, Diseño UI/UX, Arquitectura de Base de Datos",
+    "challenge": "Una distribuidora avícola de Buenos Aires necesitaba reemplazar sus procesos manuales de seguimiento de pedidos y gestión de clientes. Manejaban cientos de pedidos diarios en múltiples sucursales usando planillas, lo que generaba errores, entregas perdidas y nula visibilidad de sus métricas de negocio.",
+    "solution": "Construimos Thel, una plataforma ERP personalizada para su flujo de distribución. El sistema incluye gestión de clientes, creación de pedidos con selección de sucursal y fecha, seguimiento de balances y control de acceso por roles. La interfaz limpia y minimalista permite al personal procesar pedidos rápidamente, mientras el backend maneja la lógica de negocio compleja para inventario y facturación entre sucursales."
+  },
+  "blazek": {
+    "title": "Blazek",
+    "subtitle": "Landing page y campaña de marketing para marca de ropa de Buenos Aires",
+    "services": "Desarrollo de Landing Page, Campaña de Marketing, Diseño UI/UX",
+    "challenge": "Blazek, una marca emergente de streetwear de Buenos Aires, necesitaba una landing page de alta conversión para generar hype antes de su lanzamiento oficial. Querían capturar emails para una waitlist exclusiva mientras comunicaban la actitud de la marca — audaz, joven y orgullosamente argentina.",
+    "solution": "Diseñamos y desarrollamos una landing page enfocada en conversión con una paleta de colores llamativa en azul oscuro y naranja. El hero presenta tipografía bold con su manifiesto 'El cambio es lo único seguro', acompañado de un showcase dinámico de producto. Integramos un sistema de waitlist con una mecánica de preventa exclusiva de 200 cupos que generó urgencia, logrando +1200 registros en la comunidad antes del lanzamiento."
+  },
+  "rossence": {
+    "title": "Rossence",
+    "subtitle": "Identidad de marca & diseño UI/UX para perfumería",
+    "services": "Identidad de Marca, Diseño UI/UX, Redes Sociales",
+    "challenge": "Rossence necesitaba una identidad de marca completa que los posicionara como una marca de perfumes premium en un mercado saturado. Querían un sistema visual que se sintiera lujoso pero moderno, abarcando desde la presencia digital hasta el packaging físico.",
+    "solution": "Creamos una identidad tipográfica sofisticada centrada en el monograma RR, acompañada de una paleta minimalista en blanco y negro. El sistema de marca fue diseñado para funcionar en mockups de iPhone, contenido de redes sociales y materiales impresos, creando una experiencia coherente en cada punto de contacto."
+  },
+  "certifiedDripper": {
+    "title": "Certified Dripper",
+    "subtitle": "Identidad de marca streetwear & diseño 3D",
+    "services": "Identidad de Marca, Diseño de Logo, Visualización 3D",
+    "challenge": "Certified Dripper necesitaba una identidad de marca que destacara en el competitivo espacio del streetwear. La marca tenía que sentirse audaz, urbana e instantáneamente reconocible — desde el logo hasta los mockups de producto.",
+    "solution": "Diseñamos un distintivo logotipo de estrella-órbita que captura movimiento y energía. La identidad se extendió a visualizaciones 3D de producto, incluyendo un render de campera puffer premium que muestra el logo en contexto. El resultado es una marca que se siente tanto callejera como premium."
+  },
+  "kingu": {
+    "title": "Kingu",
+    "subtitle": "Sistema de identidad de marca",
+    "services": "Identidad de Marca, Diseño de Logo",
+    "challenge": "Kingu Company necesitaba una identidad de marca versátil que funcionara en múltiples contextos — desde indumentaria hasta plataformas digitales. Querían un logo que transmitiera fuerza y dinamismo manteniéndose limpio y atemporal.",
+    "solution": "Desarrollamos dos variaciones de logo complementarias: un emblema ovalado con tipografía angular audaz para aplicaciones de herencia, y un elegante isotipo K con líneas de velocidad para contextos modernos. Juntos forman un sistema de marca flexible que se adapta a cualquier medio."
+  },
+  "todoMates": {
+    "title": "Todo Mates",
+    "subtitle": "Identidad visual para marca de mates",
+    "services": "Identidad de Marca, Diseño de Logo, Ilustración",
+    "challenge": "Todo Mates, una marca de accesorios para mate, necesitaba una identidad visual artesanal que celebrara la cultura argentina del mate sintiéndose fresca y contemporánea para un público joven.",
+    "solution": "Creamos un logotipo personalizado dibujado a mano donde la tipografía toma la forma de un mate con bombilla, haciendo que el producto sea inseparable del nombre de la marca. El estilo orgánico y artesanal refuerza la calidad hecha a mano de sus productos."
+  },
+  "juve": {
+    "title": "Juve",
+    "subtitle": "Identidad de marca para artista musical",
+    "services": "Identidad de Marca, Diseño de Portada",
+    "challenge": "Juve, un artista musical, necesitaba una identidad visual para sus lanzamientos que capturara su estética — oscura, urbana y energética con una fuerte presencia visual en plataformas de streaming y redes sociales.",
+    "solution": "Diseñamos un logotipo estilo graffiti con efecto neón rosa sobre un fondo oscuro y texturizado con ilustraciones de personajes dibujados a mano. El diseño captura la energía cruda del sonido del artista mientras crea un visual instantáneamente memorable para portadas de álbumes y material promocional."
+  },
+  "sneakersClub": {
+    "title": "Sneakers Club",
+    "subtitle": "Identidad de marca & diseño 3D para sneakers",
+    "services": "Identidad de Marca, Tipografía 3D, Diseño Visual",
+    "challenge": "Sneakers Club necesitaba una identidad visual audaz que captara la atención en el espacio de la cultura sneaker. La marca tenía que sentirse premium, lúdica y orientada al coleccionista.",
+    "solution": "Creamos un llamativo tratamiento tipográfico 3D estilo burbuja en rojo vibrante, con una silueta de zapatilla integrada en las letras. La superficie reflectante y el fondo oscuro crean una estética dramática de grado coleccionista que funciona en merchandise, redes sociales y entornos retail."
+  }
+}
