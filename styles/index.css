@@ -302,6 +302,18 @@
     color: var(--color-primary);
   }
 
+  /* --- Screenshot Frame (browser chrome for real site screenshots) --- */
+  .browser-frame {
+    @apply overflow-hidden rounded-xl border;
+    background: var(--color-surface);
+    border-color: var(--color-border);
+  }
+
+  .browser-frame-bar {
+    @apply px-4 py-2.5 border-b;
+    border-color: var(--color-border);
+  }
+
   /* --- Portfolio Card --- */
   .portfolio-card-image {
     @apply aspect-video overflow-hidden rounded-xl relative ring-1 transition-all bg-[var(--color-surface)];
@@ -520,6 +532,20 @@
   .bg-glow {
     @apply absolute rounded-full blur-[100px] pointer-events-none;
     background: var(--color-primary-glow);
+  }
+
+  /* --- Blueprint Corner Marks (schematic registration marks) --- */
+  .blueprint-corner {
+    @apply hidden sm:block absolute w-10 h-10 md:w-14 md:h-14 pointer-events-none opacity-25;
+    border-color: var(--color-primary);
+  }
+
+  .blueprint-corner-tl {
+    @apply top-6 left-4 md:top-10 md:left-8 border-t-2 border-l-2;
+  }
+
+  .blueprint-corner-br {
+    @apply bottom-6 right-4 md:bottom-10 md:right-8 border-b-2 border-r-2;
   }
 
   .gradient-text {

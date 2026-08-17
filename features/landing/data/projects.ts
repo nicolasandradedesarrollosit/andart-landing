@@ -3,7 +3,7 @@ import type { Project } from "@/shared/types/project";
 export const featuredProjects: Project[] = [
   {
     slug: "blazek",
-    imageSrc: "/work/blazek/1.png",
+    imageSrc: "/work/blazek/www.blazekclub.com_.png",
     imageAlt: "Blazek Landing Page",
     category: "DEVELOPMENT",
     categoryVariant: "primary",
@@ -13,7 +13,7 @@ export const featuredProjects: Project[] = [
   },
   {
     slug: "thel",
-    imageSrc: "/work/thel/2.png",
+    imageSrc: "/work/thel/thel.onrender.com_.png",
     imageAlt: "Thel ERP Platform",
     category: "DEVELOPMENT",
     categoryVariant: "primary",

@@ -21,7 +21,9 @@ export function HeroSection() {
 
   return (
     <section className="relative min-h-[85vh] sm:min-h-screen flex items-center overflow-hidden">
-      <div className="absolute inset-0 bg-grid" />
+      <div className="absolute inset-0 bg-blueprint" />
+      <div className="blueprint-corner blueprint-corner-tl" />
+      <div className="blueprint-corner blueprint-corner-br" />
       <m.div
         className="absolute top-20 left-1/6 w-48 sm:w-64 md:w-80 h-48 sm:h-64 md:h-80 bg-glow opacity-20"
         animate={glowAnim}

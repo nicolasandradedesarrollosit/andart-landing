@@ -12,7 +12,7 @@ export interface PortfolioProject {
 export const portfolioProjects: PortfolioProject[] = [
   {
     slug: "thel",
-    imageSrc: "/work/thel/2.png",
+    imageSrc: "/work/thel/thel.onrender.com_.png",
     imageAlt: "Thel ERP Platform",
     tags: [{ label: "Development", variant: "primary" }, { label: "SaaS", variant: "neutral" }],
     titleKey: "projects.thel.title",
@@ -21,7 +21,7 @@ export const portfolioProjects: PortfolioProject[] = [
   },
   {
     slug: "blazek",
-    imageSrc: "/work/blazek/1.png",
+    imageSrc: "/work/blazek/www.blazekclub.com_.png",
     imageAlt: "Blazek Landing Page",
     tags: [{ label: "Development", variant: "primary" }, { label: "Marketing", variant: "neutral" }],
     titleKey: "projects.blazek.title",
