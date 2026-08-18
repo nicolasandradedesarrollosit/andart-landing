@@ -9,12 +9,13 @@ interface ImageCarouselProps {
   images: string[];
   alt: string;
   className?: string;
-  fit?: "cover" | "contain";
+  fits?: Array<"cover" | "contain">;
+  masks?: boolean[];
 }
 
-export function ImageCarousel({ images, alt, className, fit = "cover" }: ImageCarouselProps) {
+export function ImageCarousel({ images, alt, className, fits, masks }: ImageCarouselProps) {
   const [current, setCurrent] = useState(0);
-  const isContain = fit === "contain";
+  const isContain = fits?.[current] === "contain";
 
   const prev = () => setCurrent((c) => (c - 1 + images.length) % images.length);
   const next = () => setCurrent((c) => (c + 1) % images.length);
@@ -41,13 +42,26 @@ export function ImageCarousel({ images, alt, className, fit = "cover" }: ImageCa
             fill
             sizes="(max-width: 768px) 100vw, 80vw"
             className={cn(
-              isContain ? "object-contain" : "object-cover object-top",
+              fits?.[i] === "contain" ? "object-contain" : "object-cover object-top",
               "transition-opacity duration-500",
               i === current ? "opacity-100" : "opacity-0"
             )}
             priority={i === 0}
           />
         ))}
+
+        {images.map(
+          (src, i) =>
+            masks?.[i] && (
+              <div
+                key={`mask-${src}`}
+                className={cn(
+                  "image-mask transition-opacity duration-500",
+                  i === current ? "opacity-100" : "opacity-0"
+                )}
+              />
+            )
+        )}
 
         {images.length > 1 && (
           <>

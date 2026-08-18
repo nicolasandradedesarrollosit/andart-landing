@@ -11,6 +11,8 @@ export interface CaseStudyData {
   year: string;
   techStack: string[];
   gallery: string[];
+  galleryFit?: Array<"cover" | "contain">;
+  galleryMask?: boolean[];
 }
 
 export { caseStudies } from "./case-study-entries";

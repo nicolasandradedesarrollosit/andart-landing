@@ -22,7 +22,8 @@ export function CaseStudyGallerySection({ caseStudy }: CaseStudyGallerySectionPr
         <ImageCarousel
           images={caseStudy.gallery}
           alt={t(caseStudy.titleKey)}
-          fit={caseStudy.imageFit}
+          fits={caseStudy.galleryFit}
+          masks={caseStudy.galleryMask}
         />
       </Container>
     </Section>
