@@ -14,7 +14,7 @@
     "title": "Thel",
     "subtitle": "Sistema ERP a medida para distribución avícola",
     "services": "Desarrollo Full-Stack, Diseño UI/UX, Arquitectura de Base de Datos",
-    "challenge": "Una distribuidora avícola de Buenos Aires necesitaba reemplazar sus procesos manuales de seguimiento de pedidos y gestión de clientes. Manejaban cientos de pedidos diarios en múltiples sucursales usando planillas, lo que generaba errores, entregas perdidas y nula visibilidad de sus métricas de negocio.",
+    "challenge": "Una distribuidora avícola de Rosario necesitaba reemplazar sus procesos manuales de seguimiento de pedidos y gestión de clientes. Manejaban cientos de pedidos diarios en múltiples sucursales usando planillas, lo que generaba errores, entregas perdidas y nula visibilidad de sus métricas de negocio.",
     "solution": "Construimos Thel, una plataforma ERP personalizada para su flujo de distribución. El sistema incluye gestión de clientes, creación de pedidos con selección de sucursal y fecha, seguimiento de balances y control de acceso por roles. La interfaz limpia y minimalista permite al personal procesar pedidos rápidamente, mientras el backend maneja la lógica de negocio compleja para inventario y facturación entre sucursales."
   },
   "blazek": {

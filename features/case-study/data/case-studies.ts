@@ -1,6 +1,7 @@
 export interface CaseStudyData {
   slug: string;
   imageSrc: string;
+  imageFit?: "cover" | "contain";
   category: string;
   titleKey: string;
   subtitleKey: string;

@@ -2,9 +2,9 @@ import type { CaseStudyData } from "./case-studies";
 
 const cs = (
   slug: string, imageSrc: string, category: string, key: string,
-  year: string, techStack: string[], gallery: string[]
+  year: string, techStack: string[], gallery: string[], imageFit?: "cover" | "contain"
 ): CaseStudyData => ({
-  slug, imageSrc, category, year, techStack, gallery,
+  slug, imageSrc, category, year, techStack, gallery, imageFit,
   titleKey: `case-study:${key}.title`, subtitleKey: `case-study:${key}.subtitle`,
   challengeKey: `case-study:${key}.challenge`, solutionKey: `case-study:${key}.solution`,
   servicesKey: `case-study:${key}.services`,
@@ -12,7 +12,7 @@ const cs = (
 
 export const caseStudies: CaseStudyData[] = [
   cs("thel", "/work/thel/thel.onrender.com_.png", "Development", "thel",
-    "2025", ["Next.js", "React", "PostgreSQL", "Node.js"],
+    "2025", ["Next.js", "React", "Mongoose", "Node.js"],
     ["/work/thel/thel.onrender.com_.png"]),
   cs("blazek", "/work/blazek/www.blazekclub.com_.png", "Development", "blazek",
     "2025", ["Next.js", "React", "Tailwind CSS", "Vercel"],
@@ -28,7 +28,7 @@ export const caseStudies: CaseStudyData[] = [
     ["/work/kingu/1.jpg", "/work/kingu/2.jpg"]),
   cs("todo-mates", "/work/todo-mates/1.jpg", "Branding", "todoMates",
     "2023", ["Illustrator", "Procreate"],
-    ["/work/todo-mates/1.jpg", "/work/todo-mates/2.jpg"]),
+    ["/work/todo-mates/1.jpg", "/work/todo-mates/2.jpg"], "contain"),
   cs("juve", "/work/juve/1.jpg", "Branding", "juve",
     "2023", ["Photoshop", "After Effects"],
     ["/work/juve/1.jpg"]),

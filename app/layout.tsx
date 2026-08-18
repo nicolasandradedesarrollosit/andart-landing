@@ -21,7 +21,10 @@ export const metadata: Metadata = {
   title: SITE_METADATA.title,
   description: SITE_METADATA.description,
   icons: {
-    icon: "/logos/andart-dark.png",
+    icon: [
+      { url: "/logos/andart-light.png", media: "(prefers-color-scheme: light)" },
+      { url: "/logos/andart-dark.png", media: "(prefers-color-scheme: dark)" },
+    ],
     apple: "/logos/andart-dark.png",
   },
 };

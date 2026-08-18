@@ -5,6 +5,7 @@ import Link from "next/link";
 import { useTranslation } from "react-i18next";
 import { ArrowLeft } from "lucide-react";
 import { ROUTES } from "@/shared/constants/routes";
+import { cn } from "@/shared/lib/cn";
 import type { CaseStudyData } from "@/features/case-study/data/case-studies";
 
 interface CaseStudyHeroSectionProps {
@@ -14,16 +15,19 @@ interface CaseStudyHeroSectionProps {
 export function CaseStudyHeroSection({ caseStudy }: CaseStudyHeroSectionProps) {
   const { t } = useTranslation("case-study");
 
+  const isContain = caseStudy.imageFit === "contain";
+
   return (
-    <section className="case-study-hero">
+    <section className={cn("case-study-hero", isContain && "bg-white")}>
       <Image
         src={caseStudy.imageSrc}
         alt={t(caseStudy.titleKey)}
         fill
         sizes="100vw"
         priority
-        className="object-cover"
+        className={cn(isContain ? "object-contain" : "object-cover")}
       />
+      {!isContain && <div className="image-mask" />}
       <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-black/20" />
 
       <div className="absolute inset-0 z-10 flex flex-col justify-end">

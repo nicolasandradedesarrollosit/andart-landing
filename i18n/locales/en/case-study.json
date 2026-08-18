@@ -14,7 +14,7 @@
     "title": "Thel",
     "subtitle": "Custom ERP system for poultry distribution",
     "services": "Full-Stack Development, UI/UX Design, Database Architecture",
-    "challenge": "A poultry distribution company in Buenos Aires needed to replace their manual order tracking and client management processes. They were handling hundreds of daily orders across multiple branches using spreadsheets, leading to errors, missed deliveries, and no visibility into their business metrics.",
+    "challenge": "A poultry distribution company in Rosario needed to replace their manual order tracking and client management processes. They were handling hundreds of daily orders across multiple branches using spreadsheets, leading to errors, missed deliveries, and no visibility into their business metrics.",
     "solution": "We built Thel, a custom ERP platform tailored to their distribution workflow. The system features client management, order creation with branch and date selection, balance tracking, and role-based access control. The clean, minimal interface ensures staff can process orders quickly, while the backend handles complex business logic for inventory and billing across branches."
   },
   "blazek": {
